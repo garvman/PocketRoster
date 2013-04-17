@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
+		CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
+		CF6568D9171782B700AE84AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D8171782B700AE84AC /* CoreGraphics.framework */; };
+		CF6568DF171782B700AE84AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF6568DD171782B700AE84AC /* InfoPlist.strings */; };
+		CF6568E1171782B700AE84AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6568E0171782B700AE84AC /* main.m */; };
+		CF6568E5171782B700AE84AC /* Pocket_RosterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6568E4171782B700AE84AC /* Pocket_RosterAppDelegate.m */; };
+		CF6568E7171782B700AE84AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6568E6171782B700AE84AC /* Default.png */; };
+		CF6568E9171782B700AE84AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6568E8171782B700AE84AC /* Default@2x.png */; };
+		CF6568EB171782B700AE84AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6568EA171782B700AE84AC /* Default-568h@2x.png */; };
+		CF6568EE171782B700AE84AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6568EC171782B700AE84AC /* MainStoryboard.storyboard */; };
+		CF6568F1171782B700AE84AC /* Pocket_RosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6568F0171782B700AE84AC /* Pocket_RosterViewController.m */; };
+		CF6568F9171782B700AE84AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568F8171782B700AE84AC /* SenTestingKit.framework */; };
+		CF6568FA171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
+		CF6568FB171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
+		CF656903171782B700AE84AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF656901171782B700AE84AC /* InfoPlist.strings */; };
+		CF656906171782B700AE84AC /* Pocket_RosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF656905171782B700AE84AC /* Pocket_RosterTests.m */; };
+		CF6569121717859B00AE84AC /* FlickrFetcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6569111717859B00AE84AC /* FlickrFetcherViewController.m */; };
+		CF6569161717863100AE84AC /* FlickrPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6569141717863100AE84AC /* FlickrPhotoTableViewController.m */; };
+		CF65691A1717870700AE84AC /* LatestFlickrPhotosTVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6569191717870700AE84AC /* LatestFlickrPhotosTVCCell.m */; };
+		CF65691D171787DF00AE84AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65691C171787DF00AE84AC /* AppDelegate.m */; };
+		CF656920171795E800AE84AC /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65691F171795E800AE84AC /* ImageViewController.m */; };
+		CF6569231717968500AE84AC /* AttributedStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6569221717968500AE84AC /* AttributedStringViewController.m */; };
+		CF65692A17179C1F00AE84AC /* BowdoinButton.jpm.png in Resources */ = {isa = PBXBuildFile; fileRef = CF65692917179C1F00AE84AC /* BowdoinButton.jpm.png */; };
+		CF65692C17179F9800AE84AC /* SwimmingCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF65692B17179F9800AE84AC /* SwimmingCover.jpg */; };
+		CF65692E1717ABD700AE84AC /* SwimLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF65692D1717ABD700AE84AC /* SwimLogo.jpg */; };
+		CF6569321717BA1B00AE84AC /* FootballLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6569311717BA1B00AE84AC /* FootballLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF6568FC171782B700AE84AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6568C7171782B700AE84AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6568CF171782B700AE84AC;
+			remoteInfo = "Pocket Roster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF6568D0171782B700AE84AC /* Pocket Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Roster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6568D4171782B700AE84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF6568D6171782B700AE84AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF6568D8171782B700AE84AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF6568DC171782B700AE84AC /* Pocket Roster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Roster-Info.plist"; sourceTree = "<group>"; };
+		CF6568DE171782B700AE84AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF6568E0171782B700AE84AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6568E2171782B700AE84AC /* Pocket Roster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Roster-Prefix.pch"; sourceTree = "<group>"; };
+		CF6568E3171782B700AE84AC /* Pocket_RosterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_RosterAppDelegate.h; sourceTree = "<group>"; };
+		CF6568E4171782B700AE84AC /* Pocket_RosterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_RosterAppDelegate.m; sourceTree = "<group>"; };
+		CF6568E6171782B700AE84AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF6568E8171782B700AE84AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF6568EA171782B700AE84AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF6568ED171782B700AE84AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CF6568EF171782B700AE84AC /* Pocket_RosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_RosterViewController.h; sourceTree = "<group>"; };
+		CF6568F0171782B700AE84AC /* Pocket_RosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_RosterViewController.m; sourceTree = "<group>"; };
+		CF6568F7171782B700AE84AC /* Pocket RosterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket RosterTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6568F8171782B700AE84AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF656900171782B700AE84AC /* Pocket RosterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket RosterTests-Info.plist"; sourceTree = "<group>"; };
+		CF656902171782B700AE84AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF656904171782B700AE84AC /* Pocket_RosterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pocket_RosterTests.h; sourceTree = "<group>"; };
+		CF656905171782B700AE84AC /* Pocket_RosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_RosterTests.m; sourceTree = "<group>"; };
+		CF6569101717859B00AE84AC /* FlickrFetcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcherViewController.h; sourceTree = "<group>"; };
+		CF6569111717859B00AE84AC /* FlickrFetcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcherViewController.m; sourceTree = "<group>"; };
+		CF6569131717863100AE84AC /* FlickrPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoTableViewController.h; sourceTree = "<group>"; };
+		CF6569141717863100AE84AC /* FlickrPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoTableViewController.m; sourceTree = "<group>"; };
+		CF6569181717870700AE84AC /* LatestFlickrPhotosTVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestFlickrPhotosTVCCell.h; sourceTree = "<group>"; };
+		CF6569191717870700AE84AC /* LatestFlickrPhotosTVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestFlickrPhotosTVCCell.m; sourceTree = "<group>"; };
+		CF65691B171787DF00AE84AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF65691C171787DF00AE84AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF65691E171795E800AE84AC /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		CF65691F171795E800AE84AC /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		CF6569211717968500AE84AC /* AttributedStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedStringViewController.h; sourceTree = "<group>"; };
+		CF6569221717968500AE84AC /* AttributedStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedStringViewController.m; sourceTree = "<group>"; };
+		CF656924171797A100AE84AC /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		CF65692917179C1F00AE84AC /* BowdoinButton.jpm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowdoinButton.jpm.png; sourceTree = "<group>"; };
+		CF65692B17179F9800AE84AC /* SwimmingCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwimmingCover.jpg; sourceTree = "<group>"; };
+		CF65692D1717ABD700AE84AC /* SwimLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwimLogo.jpg; sourceTree = "<group>"; };
+		CF6569311717BA1B00AE84AC /* FootballLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6568CD171782B700AE84AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */,
+				CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */,
+				CF6568D9171782B700AE84AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6568F3171782B700AE84AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6568F9171782B700AE84AC /* SenTestingKit.framework in Frameworks */,
+				CF6568FA171782B700AE84AC /* UIKit.framework in Frameworks */,
+				CF6568FB171782B700AE84AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6568C5171782B700AE84AC = {
+			isa = PBXGroup;
+			children = (
+				CF6569311717BA1B00AE84AC /* FootballLogo.png */,
+				CF65692D1717ABD700AE84AC /* SwimLogo.jpg */,
+				CF65692B17179F9800AE84AC /* SwimmingCover.jpg */,
+				CF65692917179C1F00AE84AC /* BowdoinButton.jpm.png */,
+				CF6568DA171782B700AE84AC /* Pocket Roster */,
+				CF6568FE171782B700AE84AC /* Pocket RosterTests */,
+				CF6568D3171782B700AE84AC /* Frameworks */,
+				CF6568D1171782B700AE84AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6568D1171782B700AE84AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6568D0171782B700AE84AC /* Pocket Roster.app */,
+				CF6568F7171782B700AE84AC /* Pocket RosterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6568D3171782B700AE84AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6568D4171782B700AE84AC /* UIKit.framework */,
+				CF6568D6171782B700AE84AC /* Foundation.framework */,
+				CF6568D8171782B700AE84AC /* CoreGraphics.framework */,
+				CF6568F8171782B700AE84AC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6568DA171782B700AE84AC /* Pocket Roster */ = {
+			isa = PBXGroup;
+			children = (
+				CF6568E3171782B700AE84AC /* Pocket_RosterAppDelegate.h */,
+				CF6568E4171782B700AE84AC /* Pocket_RosterAppDelegate.m */,
+				CF6569211717968500AE84AC /* AttributedStringViewController.h */,
+				CF6569221717968500AE84AC /* AttributedStringViewController.m */,
+				CF6568EC171782B700AE84AC /* MainStoryboard.storyboard */,
+				CF6568EF171782B700AE84AC /* Pocket_RosterViewController.h */,
+				CF6568F0171782B700AE84AC /* Pocket_RosterViewController.m */,
+				CF65691E171795E800AE84AC /* ImageViewController.h */,
+				CF656924171797A100AE84AC /* FlickrAPIKey.h */,
+				CF65691F171795E800AE84AC /* ImageViewController.m */,
+				CF6568DB171782B700AE84AC /* Supporting Files */,
+				CF6569101717859B00AE84AC /* FlickrFetcherViewController.h */,
+				CF6569111717859B00AE84AC /* FlickrFetcherViewController.m */,
+				CF6569131717863100AE84AC /* FlickrPhotoTableViewController.h */,
+				CF6569141717863100AE84AC /* FlickrPhotoTableViewController.m */,
+				CF65691B171787DF00AE84AC /* AppDelegate.h */,
+				CF65691C171787DF00AE84AC /* AppDelegate.m */,
+				CF6569181717870700AE84AC /* LatestFlickrPhotosTVCCell.h */,
+				CF6569191717870700AE84AC /* LatestFlickrPhotosTVCCell.m */,
+			);
+			path = "Pocket Roster";
+			sourceTree = "<group>";
+		};
+		CF6568DB171782B700AE84AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6568DC171782B700AE84AC /* Pocket Roster-Info.plist */,
+				CF6568DD171782B700AE84AC /* InfoPlist.strings */,
+				CF6568E0171782B700AE84AC /* main.m */,
+				CF6568E2171782B700AE84AC /* Pocket Roster-Prefix.pch */,
+				CF6568E6171782B700AE84AC /* Default.png */,
+				CF6568E8171782B700AE84AC /* Default@2x.png */,
+				CF6568EA171782B700AE84AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF6568FE171782B700AE84AC /* Pocket RosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF656904171782B700AE84AC /* Pocket_RosterTests.h */,
+				CF656905171782B700AE84AC /* Pocket_RosterTests.m */,
+				CF6568FF171782B700AE84AC /* Supporting Files */,
+			);
+			path = "Pocket RosterTests";
+			sourceTree = "<group>";
+		};
+		CF6568FF171782B700AE84AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF656900171782B700AE84AC /* Pocket RosterTests-Info.plist */,
+				CF656901171782B700AE84AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6568CF171782B700AE84AC /* Pocket Roster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF656909171782B700AE84AC /* Build configuration list for PBXNativeTarget "Pocket Roster" */;
+			buildPhases = (
+				CF6568CC171782B700AE84AC /* Sources */,
+				CF6568CD171782B700AE84AC /* Frameworks */,
+				CF6568CE171782B700AE84AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Roster";
+			productName = "Pocket Roster";
+			productReference = CF6568D0171782B700AE84AC /* Pocket Roster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF6568F6171782B700AE84AC /* Pocket RosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65690C171782B700AE84AC /* Build configuration list for PBXNativeTarget "Pocket RosterTests" */;
+			buildPhases = (
+				CF6568F2171782B700AE84AC /* Sources */,
+				CF6568F3171782B700AE84AC /* Frameworks */,
+				CF6568F4171782B700AE84AC /* Resources */,
+				CF6568F5171782B700AE84AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6568FD171782B700AE84AC /* PBXTargetDependency */,
+			);
+			name = "Pocket RosterTests";
+			productName = "Pocket RosterTests";
+			productReference = CF6568F7171782B700AE84AC /* Pocket RosterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6568C7171782B700AE84AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Pocket Roster";
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pocket Roster";
+			};
+			buildConfigurationList = CF6568CA171782B700AE84AC /* Build configuration list for PBXProject "Pocket Roster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF6568C5171782B700AE84AC;
+			productRefGroup = CF6568D1171782B700AE84AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6568CF171782B700AE84AC /* Pocket Roster */,
+				CF6568F6171782B700AE84AC /* Pocket RosterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6568CE171782B700AE84AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6568DF171782B700AE84AC /* InfoPlist.strings in Resources */,
+				CF6568E7171782B700AE84AC /* Default.png in Resources */,
+				CF6568E9171782B700AE84AC /* Default@2x.png in Resources */,
+				CF6568EB171782B700AE84AC /* Default-568h@2x.png in Resources */,
+				CF6568EE171782B700AE84AC /* MainStoryboard.storyboard in Resources */,
+				CF65692A17179C1F00AE84AC /* BowdoinButton.jpm.png in Resources */,
+				CF65692C17179F9800AE84AC /* SwimmingCover.jpg in Resources */,
+				CF65692E1717ABD700AE84AC /* SwimLogo.jpg in Resources */,
+				CF6569321717BA1B00AE84AC /* FootballLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6568F4171782B700AE84AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF656903171782B700AE84AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF6568F5171782B700AE84AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6568CC171782B700AE84AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6568E1171782B700AE84AC /* main.m in Sources */,
+				CF6568E5171782B700AE84AC /* Pocket_RosterAppDelegate.m in Sources */,
+				CF6568F1171782B700AE84AC /* Pocket_RosterViewController.m in Sources */,
+				CF6569121717859B00AE84AC /* FlickrFetcherViewController.m in Sources */,
+				CF6569161717863100AE84AC /* FlickrPhotoTableViewController.m in Sources */,
+				CF65691A1717870700AE84AC /* LatestFlickrPhotosTVCCell.m in Sources */,
+				CF65691D171787DF00AE84AC /* AppDelegate.m in Sources */,
+				CF656920171795E800AE84AC /* ImageViewController.m in Sources */,
+				CF6569231717968500AE84AC /* AttributedStringViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6568F2171782B700AE84AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF656906171782B700AE84AC /* Pocket_RosterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6568FD171782B700AE84AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6568CF171782B700AE84AC /* Pocket Roster */;
+			targetProxy = CF6568FC171782B700AE84AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF6568DD171782B700AE84AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6568DE171782B700AE84AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF6568EC171782B700AE84AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6568ED171782B700AE84AC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CF656901171782B700AE84AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF656902171782B700AE84AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF656907171782B700AE84AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF656908171782B700AE84AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF65690A171782B700AE84AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Roster/Pocket Roster-Prefix.pch";
+				INFOPLIST_FILE = "Pocket Roster/Pocket Roster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF65690B171782B700AE84AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Roster/Pocket Roster-Prefix.pch";
+				INFOPLIST_FILE = "Pocket Roster/Pocket Roster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF65690D171782B700AE84AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Roster.app/Pocket Roster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Roster/Pocket Roster-Prefix.pch";
+				INFOPLIST_FILE = "Pocket RosterTests/Pocket RosterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF65690E171782B700AE84AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Roster.app/Pocket Roster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Roster/Pocket Roster-Prefix.pch";
+				INFOPLIST_FILE = "Pocket RosterTests/Pocket RosterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6568CA171782B700AE84AC /* Build configuration list for PBXProject "Pocket Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF656907171782B700AE84AC /* Debug */,
+				CF656908171782B700AE84AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF656909171782B700AE84AC /* Build configuration list for PBXNativeTarget "Pocket Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65690A171782B700AE84AC /* Debug */,
+				CF65690B171782B700AE84AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF65690C171782B700AE84AC /* Build configuration list for PBXNativeTarget "Pocket RosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65690D171782B700AE84AC /* Debug */,
+				CF65690E171782B700AE84AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6568C7171782B700AE84AC /* Project object */;
+}
