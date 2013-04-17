@@ -1,11 +1,11 @@
-PocketRoster
-
-Ryan Kulesza
+Ryan Kulesza  
 Jim Garvey
 
-Bowdoin College 
-Mobile Computing 281
+Bowdoin College   
+Mobile Computing 281  
 Professor Chown
+
+PocketRoster
 =========================
 
 An app designed for Bowdoin College Athletics. Designed to provide the user with much of the information availible at
