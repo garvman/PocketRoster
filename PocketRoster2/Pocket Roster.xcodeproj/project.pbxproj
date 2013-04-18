@@ -35,7 +35,6 @@
 		CF833B19171E14110011DED3 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF833B18171E14110011DED3 /* iPad.storyboard */; };
 		CF833B1D171E14430011DED3 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CF833B1C171E14420011DED3 /* FlickrFetcher.m */; };
 		CF833B28171ED4080011DED3 /* RosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF833B27171ED4080011DED3 /* RosterViewController.m */; };
-		CF833B33171F98310011DED3 /* BowdoinSwimming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF833B32171F98310011DED3 /* BowdoinSwimming.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +90,6 @@
 		CF833B1C171E14420011DED3 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
 		CF833B26171ED4080011DED3 /* RosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterViewController.h; sourceTree = "<group>"; };
 		CF833B27171ED4080011DED3 /* RosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterViewController.m; sourceTree = "<group>"; };
-		CF833B32171F98310011DED3 /* BowdoinSwimming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BowdoinSwimming.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +119,6 @@
 		CF6568C5171782B700AE84AC = {
 			isa = PBXGroup;
 			children = (
-				CF833B32171F98310011DED3 /* BowdoinSwimming.jpg */,
 				CF6569311717BA1B00AE84AC /* FootballLogo.png */,
 				CF65692D1717ABD700AE84AC /* SwimLogo.jpg */,
 				CF65692B17179F9800AE84AC /* SwimmingCover.jpg */,
@@ -297,7 +294,6 @@
 				CF65692E1717ABD700AE84AC /* SwimLogo.jpg in Resources */,
 				CF6569321717BA1B00AE84AC /* FootballLogo.png in Resources */,
 				CF833B19171E14110011DED3 /* iPad.storyboard in Resources */,
-				CF833B33171F98310011DED3 /* BowdoinSwimming.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
