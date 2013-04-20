@@ -11,6 +11,7 @@
 		1EBB3DF117223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DED17223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg */; };
 		1EBB3DF217223EF40032238C /* winter-quad-266.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DEE17223EF40032238C /* winter-quad-266.jpg */; };
 		1EBB3DF317223EF40032238C /* Bowdoin_College_Quad_308x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DEF17223EF40032238C /* Bowdoin_College_Quad_308x150.jpg */; };
+		1EBB3DF6172241BC0032238C /* FootballRosterPictures in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DF5172241BC0032238C /* FootballRosterPictures */; };
 		CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
 		CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
 		CF6568D9171782B700AE84AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D8171782B700AE84AC /* CoreGraphics.framework */; };
@@ -182,6 +183,7 @@
 		1EBB3DED17223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bowdoin-hubbard-hall-spring-2012.jpg"; sourceTree = "<group>"; };
 		1EBB3DEE17223EF40032238C /* winter-quad-266.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "winter-quad-266.jpg"; sourceTree = "<group>"; };
 		1EBB3DEF17223EF40032238C /* Bowdoin_College_Quad_308x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bowdoin_College_Quad_308x150.jpg; sourceTree = "<group>"; };
+		1EBB3DF5172241BC0032238C /* FootballRosterPictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootballRosterPictures; sourceTree = "<group>"; };
 		CF6568D0171782B700AE84AC /* Pocket Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Roster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6568D4171782B700AE84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF6568D6171782B700AE84AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -313,7 +315,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF6568C5171782B700AE84AC = {
+		1EBB3DF4172241650032238C /* Swim Team */ = {
 			isa = PBXGroup;
 			children = (
 				CF833BD21721821B0011DED3 /* Kaley Kokomoor.jpg */,
@@ -366,8 +368,17 @@
 				CF833B651720E2120011DED3 /* HenryBrockway.jpg */,
 				CF833B661720E2120011DED3 /* LyleAnderson.jpg */,
 				CF833B671720E2120011DED3 /* JoeClestin.jpg */,
-				CF833B601720D19C0011DED3 /* BowdoinBearPhoto.jpg */,
+			);
+			name = "Swim Team";
+			sourceTree = "<group>";
+		};
+		CF6568C5171782B700AE84AC = {
+			isa = PBXGroup;
+			children = (
+				1EBB3DF4172241650032238C /* Swim Team */,
+				1EBB3DF5172241BC0032238C /* FootballRosterPictures */,
 				1EBB3DEC17223EF40032238C /* 9.-Bowdoin-College.png */,
+				CF833B601720D19C0011DED3 /* BowdoinBearPhoto.jpg */,
 				1EBB3DED17223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg */,
 				1EBB3DEE17223EF40032238C /* winter-quad-266.jpg */,
 				1EBB3DEF17223EF40032238C /* Bowdoin_College_Quad_308x150.jpg */,
@@ -625,6 +636,7 @@
 				1EBB3DF117223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg in Resources */,
 				1EBB3DF217223EF40032238C /* winter-quad-266.jpg in Resources */,
 				1EBB3DF317223EF40032238C /* Bowdoin_College_Quad_308x150.jpg in Resources */,
+				1EBB3DF6172241BC0032238C /* FootballRosterPictures in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
