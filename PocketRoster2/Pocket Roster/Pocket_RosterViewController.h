@@ -10,18 +10,5 @@
 
 @interface Pocket_RosterViewController : UIViewController
 
-@property (nonatomic) BOOL male;
-@property (nonatomic) NSString *name;
-@property (nonatomic) NSString *position;
-@property (nonatomic) NSString *number;
-@property (nonatomic) NSString *yearOfGraduation;
-@property (nonatomic) UIImage *athletePic;
-@property (nonatomic, strong) NSMutableDictionary *footballTeam;
-@property (nonatomic, strong) NSMutableDictionary *swimTeamMens;
-@property (nonatomic, strong) NSMutableDictionary *swimTeamWomens;
-
-
-
-
 
 @end
