@@ -64,10 +64,11 @@
             NSString *position = [componentsOfAthleteInfo objectAtIndex:1];
             NSString *number = [componentsOfAthleteInfo objectAtIndex:2];
             NSString *yearOfGraduation = [componentsOfAthleteInfo objectAtIndex:3];
+            self.key = [componentsOfAthleteInfo objectAtIndex:4];
             
             
             
-            [self.footballTeamRoster setObject:[NSArray arrayWithObjects:name, position, number, yearOfGraduation, anImage,  nil] forKey:number];
+            [self.footballTeamRoster setObject:[NSArray arrayWithObjects:name, position, number, yearOfGraduation, anImage,  nil] forKey:self.key];
             //NSLog(@"%@", imagePath);
         }
         
@@ -80,7 +81,7 @@
         
     }
     
-    
+    /*
     
     NSArray *allKeys = [self.footballTeamRoster allKeys];
     
@@ -104,6 +105,7 @@
             NSLog(@"%@", [self.footballTeamRoster objectForKey:self.key]);
         }
     }
+     */
     
 }
 
@@ -139,7 +141,7 @@
 {
 
     // Return the number of rows in the section.
-    return [self.footballTeamRoster count];
+    return [self.footballTeamRoster count]-1;
     
 }
 
@@ -154,7 +156,7 @@
     
     NSArray* athleteObjects = [self.footballTeamRoster objectForKey:self.key];
     
-    if(cell == nil && [athleteObjects objectAtIndex:0]!=nil) {
+    if(cell == nil && [athleteObjects objectAtIndex:0]!=nil ) {
         cell = [[RosterCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     // Configure the cell...
@@ -168,7 +170,7 @@
         cell.athleteDetails.text = athleteDetails;
         cell.athleteImage.image = athletePic;
         
-        NSLog(@"%@", self.key);
+        //NSLog(@"%lu", (unsigned long)[self.footballTeamRoster count]);
     }
     
     

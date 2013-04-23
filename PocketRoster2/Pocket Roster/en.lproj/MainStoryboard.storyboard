@@ -167,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="72"/>
+            <point key="canvasLocation" x="-1475" y="-47"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8V7-im-dsS">
@@ -3022,10 +3022,21 @@
                                     <tabBarItem title="Team Photo" id="ak9-er-DTC"/>
                                 </items>
                             </tabBar>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="FootballLogo.png" id="flB-Hm-kwz">
-                                <rect key="frame" x="246" y="13" width="54" height="50"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="thz-qb-xpy">
+                                <rect key="frame" x="250" y="15" width="50" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="FootballLogo.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Gi-F7-Lhh" kind="modal" id="2ja-vG-wXg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3198,7 +3209,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="yLK-Jb-DDc"/>
         <segue reference="WnS-JY-TB1"/>
-        <segue reference="kf5-eM-Xxd"/>
+        <segue reference="2ja-vG-wXg"/>
+        <segue reference="ZeK-iF-128"/>
         <segue reference="w4Z-nj-QWu"/>
     </inferredMetricsTieBreakers>
 </document>
