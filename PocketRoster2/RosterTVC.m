@@ -121,11 +121,7 @@
 }
 
 
--(void) setRoster: (NSMutableDictionary*) rosterInput{
-    
-    _roster = rosterInput;
-    
-}
+
 
 
 #pragma mark - Table view data source

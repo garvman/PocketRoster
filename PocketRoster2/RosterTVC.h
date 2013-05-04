@@ -10,7 +10,7 @@
 
 @interface RosterTVC : UITableViewController
 
-@property (nonatomic) NSMutableDictionary *roster;
+
 
 @property (nonatomic) NSString *key;
 
