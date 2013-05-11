@@ -3529,6 +3529,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Ffv-bF-og0" kind="modal" id="zKd-1U-8sy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cte-uf-Rze">
                                 <rect key="frame" x="15" y="35" width="139" height="42"/>
@@ -8327,8 +8330,9 @@
         <segue reference="hO5-rh-g68"/>
         <segue reference="nC7-7u-IWG"/>
         <segue reference="ffG-QE-Whb"/>
+        <segue reference="zKd-1U-8sy"/>
+        <segue reference="qOz-vi-aCb"/>
         <segue reference="Lxj-pk-24g"/>
         <segue reference="2E2-UT-Iui"/>
-        <segue reference="qOz-vi-aCb"/>
     </inferredMetricsTieBreakers>
 </document>
