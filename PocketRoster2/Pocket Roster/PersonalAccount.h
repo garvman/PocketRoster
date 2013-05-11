@@ -13,7 +13,9 @@
 
 @property NSString *userName;
 
-
+@property (weak, nonatomic) IBOutlet UILabel *athleteTitle;
+@property (weak, nonatomic) IBOutlet UILabel *following;
+@property (weak, nonatomic) IBOutlet UIImage *athleteCoverImage;
 -(void) addUsersInfo:(NSString *)userName;
 
 

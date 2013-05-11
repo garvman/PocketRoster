@@ -42,8 +42,6 @@
 		CF247A4C173BD31B0079AD32 /* BowdoinLogin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF247A4B173BD31B0079AD32 /* BowdoinLogin.jpg */; };
 		CF247A4E173BD6890079AD32 /* wordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A4D173BD6890079AD32 /* wordmark.png */; };
 		CF247A56173BD91D0079AD32 /* LoginButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A55173BD91D0079AD32 /* LoginButton2.png */; };
-		CF247A63173BDBD30079AD32 /* BOWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF247A62173BDBD30079AD32 /* BOWLoginViewController.m */; };
-		CF247A67173BDC7A0079AD32 /* BOWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF247A66173BDC7A0079AD32 /* BOWAppDelegate.m */; };
 		CF247A6D173BF7AB0079AD32 /* BowdoinClubFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A6C173BF7AB0079AD32 /* BowdoinClubFinal.png */; };
 		CF247A6E173BF7AB0079AD32 /* BowdoinClubFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A6C173BF7AB0079AD32 /* BowdoinClubFinal.png */; };
 		CF247A75173C0B8D0079AD32 /* PersonalAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = CF247A74173C0B8D0079AD32 /* PersonalAccount.m */; };
@@ -84,6 +82,26 @@
 		CF247ABB173C32940079AD32 /* WTennisFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247ABA173C32940079AD32 /* WTennisFinal.png */; };
 		CF247ABD173C32A70079AD32 /* WVoleyFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247ABC173C32A70079AD32 /* WVoleyFinal.png */; };
 		CF247ABF173C32B40079AD32 /* WSoftballFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247ABE173C32B40079AD32 /* WSoftballFinal.png */; };
+		CF247ADB173D8C280079AD32 /* BMenFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247ADA173D8C270079AD32 /* BMenFinal.png */; };
+		CF247ADD173D8C2C0079AD32 /* BWomenFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247ADC173D8C2B0079AD32 /* BWomenFinal.png */; };
+		CF247AE3173D8D0D0079AD32 /* BClubFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AE2173D8D0D0079AD32 /* BClubFinal.png */; };
+		CF247AE5173D8D140079AD32 /* WWaterPoloFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AE4173D8D130079AD32 /* WWaterPoloFinal.png */; };
+		CF247AE7173D8D1A0079AD32 /* MWaterPoloFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AE6173D8D190079AD32 /* MWaterPoloFinal.png */; };
+		CF247AE9173D8D660079AD32 /* iPhoneSetFallBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */; };
+		CF247AEB173DAA0F0079AD32 /* WSwimFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AEA173DAA0E0079AD32 /* WSwimFinal.png */; };
+		CF247AED173DAA130079AD32 /* WBasketballFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AEC173DAA120079AD32 /* WBasketballFinal.png */; };
+		CF247AEF173DAC7B0079AD32 /* WFieldHockeyFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247AEE173DAC7B0079AD32 /* WFieldHockeyFinal.png */; };
+		CF4684D7173DC2D1001F8A1F /* BOWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684D2173DC2D1001F8A1F /* BOWAppDelegate.m */; };
+		CF4684D8173DC2D1001F8A1F /* BOWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684D5173DC2D1001F8A1F /* BOWLoginViewController.m */; };
+		CF4684DB173DC4D0001F8A1F /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4684DA173DC4D0001F8A1F /* LoginButton.png */; };
+		CF4684E1173DF963001F8A1F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4684E0173DF963001F8A1F /* Icon.png */; };
+		CF4684F0173DFD9B001F8A1F /* FlickrPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684E4173DFD9B001F8A1F /* FlickrPhotoViewController.m */; };
+		CF4684F1173DFD9B001F8A1F /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684E6173DFD9B001F8A1F /* Flickr.m */; };
+		CF4684F2173DFD9B001F8A1F /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684E8173DFD9B001F8A1F /* FlickrPhoto.m */; };
+		CF4684F3173DFD9B001F8A1F /* FlickrPracticeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684EA173DFD9B001F8A1F /* FlickrPracticeAppDelegate.m */; };
+		CF4684F5173DFD9B001F8A1F /* FlickrPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684ED173DFD9B001F8A1F /* FlickrPracticeViewController.m */; };
+		CF4684F6173DFD9B001F8A1F /* FlickrPhotoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */; };
+		CF468501173E0246001F8A1F /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF468500173E0245001F8A1F /* FlickrPhotoCell.m */; };
 		CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
 		CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
 		CF6568D9171782B700AE84AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D8171782B700AE84AC /* CoreGraphics.framework */; };
@@ -290,11 +308,6 @@
 		CF247A4B173BD31B0079AD32 /* BowdoinLogin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BowdoinLogin.jpg; sourceTree = "<group>"; };
 		CF247A4D173BD6890079AD32 /* wordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordmark.png; sourceTree = "<group>"; };
 		CF247A55173BD91D0079AD32 /* LoginButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton2.png; sourceTree = "<group>"; };
-		CF247A61173BDBD30079AD32 /* BOWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWLoginViewController.h; sourceTree = "<group>"; };
-		CF247A62173BDBD30079AD32 /* BOWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOWLoginViewController.m; sourceTree = "<group>"; };
-		CF247A65173BDC7A0079AD32 /* BOWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWAppDelegate.h; sourceTree = "<group>"; };
-		CF247A66173BDC7A0079AD32 /* BOWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOWAppDelegate.m; sourceTree = "<group>"; };
-		CF247A6B173BDDE90079AD32 /* BOLoginViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOLoginViewControllerDelegate.h; sourceTree = "<group>"; };
 		CF247A6C173BF7AB0079AD32 /* BowdoinClubFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowdoinClubFinal.png; sourceTree = "<group>"; };
 		CF247A73173C0B8D0079AD32 /* PersonalAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalAccount.h; sourceTree = "<group>"; };
 		CF247A74173C0B8D0079AD32 /* PersonalAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalAccount.m; sourceTree = "<group>"; };
@@ -323,6 +336,36 @@
 		CF247ABA173C32940079AD32 /* WTennisFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTennisFinal.png; sourceTree = "<group>"; };
 		CF247ABC173C32A70079AD32 /* WVoleyFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WVoleyFinal.png; sourceTree = "<group>"; };
 		CF247ABE173C32B40079AD32 /* WSoftballFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WSoftballFinal.png; sourceTree = "<group>"; };
+		CF247ADA173D8C270079AD32 /* BMenFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMenFinal.png; sourceTree = "<group>"; };
+		CF247ADC173D8C2B0079AD32 /* BWomenFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BWomenFinal.png; sourceTree = "<group>"; };
+		CF247AE2173D8D0D0079AD32 /* BClubFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BClubFinal.png; sourceTree = "<group>"; };
+		CF247AE4173D8D130079AD32 /* WWaterPoloFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WWaterPoloFinal.png; sourceTree = "<group>"; };
+		CF247AE6173D8D190079AD32 /* MWaterPoloFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MWaterPoloFinal.png; sourceTree = "<group>"; };
+		CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneSetFallBackground.png; sourceTree = "<group>"; };
+		CF247AEA173DAA0E0079AD32 /* WSwimFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WSwimFinal.png; sourceTree = "<group>"; };
+		CF247AEC173DAA120079AD32 /* WBasketballFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WBasketballFinal.png; sourceTree = "<group>"; };
+		CF247AEE173DAC7B0079AD32 /* WFieldHockeyFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WFieldHockeyFinal.png; sourceTree = "<group>"; };
+		CF4684D1173DC2D1001F8A1F /* BOWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWAppDelegate.h; sourceTree = "<group>"; };
+		CF4684D2173DC2D1001F8A1F /* BOWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOWAppDelegate.m; sourceTree = "<group>"; };
+		CF4684D3173DC2D1001F8A1F /* BOWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWLoginViewController.h; sourceTree = "<group>"; };
+		CF4684D4173DC2D1001F8A1F /* BOWLoginViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWLoginViewControllerDelegate.h; sourceTree = "<group>"; };
+		CF4684D5173DC2D1001F8A1F /* BOWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOWLoginViewController.m; sourceTree = "<group>"; };
+		CF4684DA173DC4D0001F8A1F /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
+		CF4684E0173DF963001F8A1F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CF4684E3173DFD9B001F8A1F /* FlickrPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewController.h; sourceTree = "<group>"; };
+		CF4684E4173DFD9B001F8A1F /* FlickrPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoViewController.m; sourceTree = "<group>"; };
+		CF4684E5173DFD9B001F8A1F /* Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		CF4684E6173DFD9B001F8A1F /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
+		CF4684E7173DFD9B001F8A1F /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		CF4684E8173DFD9B001F8A1F /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		CF4684E9173DFD9B001F8A1F /* FlickrPracticeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPracticeAppDelegate.h; sourceTree = "<group>"; };
+		CF4684EA173DFD9B001F8A1F /* FlickrPracticeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPracticeAppDelegate.m; sourceTree = "<group>"; };
+		CF4684EC173DFD9B001F8A1F /* FlickrPracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPracticeViewController.h; sourceTree = "<group>"; };
+		CF4684ED173DFD9B001F8A1F /* FlickrPracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPracticeViewController.m; sourceTree = "<group>"; };
+		CF4684EE173DFD9B001F8A1F /* FlickrPhotoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoHeaderView.h; sourceTree = "<group>"; };
+		CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
+		CF4684FF173E0245001F8A1F /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
+		CF468500173E0245001F8A1F /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
 		CF6568D0171782B700AE84AC /* Pocket Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Roster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6568D4171782B700AE84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF6568D6171782B700AE84AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -539,36 +582,10 @@
 			name = "General Images";
 			sourceTree = "<group>";
 		};
-		CF6568C5171782B700AE84AC = {
+		CF4684BE173DBF8E001F8A1F /* TumbnailFinal */ = {
 			isa = PBXGroup;
 			children = (
-				CF247AB2173C324F0079AD32 /* WSquashFinal.png */,
-				CF247AB0173C323C0079AD32 /* WTrackFinal.png */,
-				CF247AAE173C322A0079AD32 /* WHockeyFinal.png */,
-				CF247AAC173C32120079AD32 /* MBaseballFinal.png */,
-				CF247AB4173C32670079AD32 /* MRugbyFinal.png */,
-				CF247AAA173C31FE0079AD32 /* WGolfFinal.png */,
-				CF247AA8173C31E70079AD32 /* WSailFinal.png */,
-				CF247AA6173C31D70079AD32 /* MLaxFinal.png */,
-				CF247AA3173C31C00079AD32 /* WSkiFinal.png */,
-				CF247A98173C308F0079AD32 /* MCrewFinal.png */,
-				CF247AB6173C32760079AD32 /* MSquashFinal.png */,
-				CF247AB8173C32840079AD32 /* WCrossCountry.png */,
-				CF247A95173C307C0079AD32 /* MGolfFinal.png */,
-				CF247A92173C2FA30079AD32 /* WCrewFinal.png */,
-				CF247ABC173C32A70079AD32 /* WVoleyFinal.png */,
-				CF247ABE173C32B40079AD32 /* WSoftballFinal.png */,
-				CF247ABA173C32940079AD32 /* WTennisFinal.png */,
-				CF247A8F173C28660079AD32 /* MTennisFinal.png */,
-				CF247A8C173C27DC0079AD32 /* MSailFinal.png */,
-				CF247A89173C26CC0079AD32 /* CRoboCupFinal.png */,
-				CF247A86173C26B90079AD32 /* WRugbyFinal.png */,
-				CF247A83173C269D0079AD32 /* MBballFinal.png */,
-				CF247A80173C26840079AD32 /* WLaxFinal.png */,
-				CF247A7D173C26720079AD32 /* WSoccerFinal.png */,
-				1EBB3DF4172241650032238C /* Swim Team */,
-				1EBB3DEC17223EF40032238C /* 9.-Bowdoin-College.png */,
-				1E4837961734C04F008D8C06 /* FootballRosterPictures */,
+				CF247AE4173D8D130079AD32 /* WWaterPoloFinal.png */,
 				1E2F176C172881B70023515F /* mensCrew.jpg */,
 				1E2F176D172881B70023515F /* mensGolf.jpg */,
 				1E2F176E172881B70023515F /* mensRugby.jpg */,
@@ -595,6 +612,91 @@
 				CF65692D1717ABD700AE84AC /* SwimLogo.jpg */,
 				CF65692B17179F9800AE84AC /* SwimmingCover.jpg */,
 				CF65692917179C1F00AE84AC /* BowdoinButton.jpm.png */,
+				CF247AE2173D8D0D0079AD32 /* BClubFinal.png */,
+				CF247ADC173D8C2B0079AD32 /* BWomenFinal.png */,
+				CF247ADA173D8C270079AD32 /* BMenFinal.png */,
+				CF247AB2173C324F0079AD32 /* WSquashFinal.png */,
+				CF247AB0173C323C0079AD32 /* WTrackFinal.png */,
+				CF247AAE173C322A0079AD32 /* WHockeyFinal.png */,
+				CF247AAC173C32120079AD32 /* MBaseballFinal.png */,
+				CF247AB4173C32670079AD32 /* MRugbyFinal.png */,
+				CF247AAA173C31FE0079AD32 /* WGolfFinal.png */,
+				CF247AA8173C31E70079AD32 /* WSailFinal.png */,
+				CF247AA6173C31D70079AD32 /* MLaxFinal.png */,
+				CF247AA3173C31C00079AD32 /* WSkiFinal.png */,
+				CF247A98173C308F0079AD32 /* MCrewFinal.png */,
+				CF247AB6173C32760079AD32 /* MSquashFinal.png */,
+				CF247AB8173C32840079AD32 /* WCrossCountry.png */,
+				CF247A95173C307C0079AD32 /* MGolfFinal.png */,
+				CF247A92173C2FA30079AD32 /* WCrewFinal.png */,
+				CF247ABC173C32A70079AD32 /* WVoleyFinal.png */,
+				CF247ABE173C32B40079AD32 /* WSoftballFinal.png */,
+				CF247ABA173C32940079AD32 /* WTennisFinal.png */,
+				CF247A8F173C28660079AD32 /* MTennisFinal.png */,
+				CF247A8C173C27DC0079AD32 /* MSailFinal.png */,
+				CF247A89173C26CC0079AD32 /* CRoboCupFinal.png */,
+				CF247A86173C26B90079AD32 /* WRugbyFinal.png */,
+				CF247A83173C269D0079AD32 /* MBballFinal.png */,
+				CF247A80173C26840079AD32 /* WLaxFinal.png */,
+				CF247A7D173C26720079AD32 /* WSoccerFinal.png */,
+				CF247AE6173D8D190079AD32 /* MWaterPoloFinal.png */,
+				CF247AEE173DAC7B0079AD32 /* WFieldHockeyFinal.png */,
+				CF247AEA173DAA0E0079AD32 /* WSwimFinal.png */,
+				CF247AEC173DAA120079AD32 /* WBasketballFinal.png */,
+			);
+			name = TumbnailFinal;
+			sourceTree = "<group>";
+		};
+		CF4684C0173DC009001F8A1F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CF4684DA173DC4D0001F8A1F /* LoginButton.png */,
+				CF4684D1173DC2D1001F8A1F /* BOWAppDelegate.h */,
+				CF4684D2173DC2D1001F8A1F /* BOWAppDelegate.m */,
+				CF4684D3173DC2D1001F8A1F /* BOWLoginViewController.h */,
+				CF4684D4173DC2D1001F8A1F /* BOWLoginViewControllerDelegate.h */,
+				CF4684D5173DC2D1001F8A1F /* BOWLoginViewController.m */,
+				CF4684C3173DC034001F8A1F /* Supporting Files */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CF4684C3173DC034001F8A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4684E2173DFD59001F8A1F /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				CF4684FF173E0245001F8A1F /* FlickrPhotoCell.h */,
+				CF468500173E0245001F8A1F /* FlickrPhotoCell.m */,
+				CF4684E3173DFD9B001F8A1F /* FlickrPhotoViewController.h */,
+				CF4684E4173DFD9B001F8A1F /* FlickrPhotoViewController.m */,
+				CF4684E5173DFD9B001F8A1F /* Flickr.h */,
+				CF4684E6173DFD9B001F8A1F /* Flickr.m */,
+				CF4684E7173DFD9B001F8A1F /* FlickrPhoto.h */,
+				CF4684E8173DFD9B001F8A1F /* FlickrPhoto.m */,
+				CF4684E9173DFD9B001F8A1F /* FlickrPracticeAppDelegate.h */,
+				CF4684EA173DFD9B001F8A1F /* FlickrPracticeAppDelegate.m */,
+				CF4684EC173DFD9B001F8A1F /* FlickrPracticeViewController.h */,
+				CF4684ED173DFD9B001F8A1F /* FlickrPracticeViewController.m */,
+				CF4684EE173DFD9B001F8A1F /* FlickrPhotoHeaderView.h */,
+				CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */,
+			);
+			name = Flickr;
+			sourceTree = "<group>";
+		};
+		CF6568C5171782B700AE84AC = {
+			isa = PBXGroup;
+			children = (
+				CF4684BE173DBF8E001F8A1F /* TumbnailFinal */,
+				CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */,
+				1EBB3DF4172241650032238C /* Swim Team */,
+				1EBB3DEC17223EF40032238C /* 9.-Bowdoin-College.png */,
+				1E4837961734C04F008D8C06 /* FootballRosterPictures */,
 				CF247A16173B408F0079AD32 /* General Images */,
 				CF6568DA171782B700AE84AC /* Pocket Roster */,
 				CF6568FE171782B700AE84AC /* Pocket RosterTests */,
@@ -626,14 +728,12 @@
 		CF6568DA171782B700AE84AC /* Pocket Roster */ = {
 			isa = PBXGroup;
 			children = (
+				CF4684E0173DF963001F8A1F /* Icon.png */,
 				CF247A77173C0CDA0079AD32 /* POCKETROSTERTEXTFILE.txt */,
-				CF247A6B173BDDE90079AD32 /* BOLoginViewControllerDelegate.h */,
-				CF247A61173BDBD30079AD32 /* BOWLoginViewController.h */,
-				CF247A62173BDBD30079AD32 /* BOWLoginViewController.m */,
-				CF247A65173BDC7A0079AD32 /* BOWAppDelegate.h */,
-				CF247A66173BDC7A0079AD32 /* BOWAppDelegate.m */,
-				CF247A73173C0B8D0079AD32 /* PersonalAccount.h */,
+				CF4684C0173DC009001F8A1F /* Login */,
+				CF4684E2173DFD59001F8A1F /* Flickr */,
 				CF247A74173C0B8D0079AD32 /* PersonalAccount.m */,
+				CF247A73173C0B8D0079AD32 /* PersonalAccount.h */,
 				1EFF35BD1725EFFA003A5A1E /* RosterCell.h */,
 				1EFF35BE1725EFFA003A5A1E /* RosterCell.m */,
 				1EBB3DF7172256AD0032238C /* RosterTVC.h */,
@@ -902,6 +1002,17 @@
 				CF247ABB173C32940079AD32 /* WTennisFinal.png in Resources */,
 				CF247ABD173C32A70079AD32 /* WVoleyFinal.png in Resources */,
 				CF247ABF173C32B40079AD32 /* WSoftballFinal.png in Resources */,
+				CF247ADB173D8C280079AD32 /* BMenFinal.png in Resources */,
+				CF247ADD173D8C2C0079AD32 /* BWomenFinal.png in Resources */,
+				CF247AE3173D8D0D0079AD32 /* BClubFinal.png in Resources */,
+				CF247AE5173D8D140079AD32 /* WWaterPoloFinal.png in Resources */,
+				CF247AE7173D8D1A0079AD32 /* MWaterPoloFinal.png in Resources */,
+				CF247AE9173D8D660079AD32 /* iPhoneSetFallBackground.png in Resources */,
+				CF247AEB173DAA0F0079AD32 /* WSwimFinal.png in Resources */,
+				CF247AED173DAA130079AD32 /* WBasketballFinal.png in Resources */,
+				CF247AEF173DAC7B0079AD32 /* WFieldHockeyFinal.png in Resources */,
+				CF4684DB173DC4D0001F8A1F /* LoginButton.png in Resources */,
+				CF4684E1173DF963001F8A1F /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1026,9 +1137,16 @@
 				1EFF35BF1725EFFA003A5A1E /* RosterCell.m in Sources */,
 				1E2F177A172883550023515F /* ScheduleCell.m in Sources */,
 				1E2F177D1728837D0023515F /* ScheduleTVC.m in Sources */,
-				CF247A63173BDBD30079AD32 /* BOWLoginViewController.m in Sources */,
-				CF247A67173BDC7A0079AD32 /* BOWAppDelegate.m in Sources */,
 				CF247A75173C0B8D0079AD32 /* PersonalAccount.m in Sources */,
+				CF4684D7173DC2D1001F8A1F /* BOWAppDelegate.m in Sources */,
+				CF4684D8173DC2D1001F8A1F /* BOWLoginViewController.m in Sources */,
+				CF4684F0173DFD9B001F8A1F /* FlickrPhotoViewController.m in Sources */,
+				CF4684F1173DFD9B001F8A1F /* Flickr.m in Sources */,
+				CF4684F2173DFD9B001F8A1F /* FlickrPhoto.m in Sources */,
+				CF4684F3173DFD9B001F8A1F /* FlickrPracticeAppDelegate.m in Sources */,
+				CF4684F5173DFD9B001F8A1F /* FlickrPracticeViewController.m in Sources */,
+				CF4684F6173DFD9B001F8A1F /* FlickrPhotoHeaderView.m in Sources */,
+				CF468501173E0246001F8A1F /* FlickrPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

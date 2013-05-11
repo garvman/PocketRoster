@@ -1,22 +1,20 @@
 //
-//  BOWAppDelegate.m
-//  BowdoinLogin
+//  FlickrPracticeAppDelegate.m
+//  PracticeFlickrPhoto
 //
-//  Created by Dev on 4/26/13.
-//  Copyright (c) 2013 Bowdoin. All rights reserved.
+//  Created by Ryan Kulesza on 4/22/13.
+//  Copyright (c) 2013 Kulesza Productions. All rights reserved.
 //
 
-#import "BOWAppDelegate.h"
-#import "BOWLoginViewController.h"
+#import "FlickrPracticeAppDelegate.h"
 
-@implementation BOWAppDelegate
+
+
+@implementation FlickrPracticeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.loginViewController = [[BOWLoginViewController alloc] initWithNibName:@"BOWLoginViewController" bundle:nil];
-    self.window.rootViewController = self.loginViewController;
-    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
     return YES;
 }
 							

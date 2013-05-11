@@ -1,16 +1,18 @@
 //
 //  BOWAppDelegate.h
-//  Pocket Roster
+//  BowdoinLogin
 //
-//  Created by Ryan Kulesza on 5/9/13.
-//  Copyright (c) 2013 Pocket Roster. All rights reserved.
+//  Created by Dev on 4/26/13.
+//  Copyright (c) 2013 Bowdoin. All rights reserved.
 //
+
 #import <UIKit/UIKit.h>
 
-@protocol BOLoginViewControllerDelegate;
+@class BOWLoginViewController;
 
-@interface BOWLoginViewController : UIViewController <NSURLConnectionDelegate,UITextFieldDelegate>
-//@property (strong,nonatomic) AHCRootViewController *rootVC;
+@interface BOWAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (weak,nonatomic) id<BOLoginViewControllerDelegate> delegate;
+@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) BOWLoginViewController *loginViewController;
+
 @end

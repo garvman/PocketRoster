@@ -1,16 +1,16 @@
 //
 //  BOWLoginViewController.h
-//  Pocket Roster
 //
-//  Created by Ryan Kulesza on 5/9/13.
-//  Copyright (c) 2013 Pocket Roster. All rights reserved.
+//  Created by Andrew Currier on 4/26/13.
+//  Copyright (c) 2013 Bowdoin College. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@protocol BOLoginViewControllerDelegate;
+@protocol BOWLoginViewControllerDelegate;
 
-@interface BOWLoginViewController: UIViewController <NSURLConnectionDelegate, UITextFieldDelegate>
+@interface BOWLoginViewController : UIViewController <NSURLConnectionDelegate,UITextFieldDelegate>
 //@property (strong,nonatomic) AHCRootViewController *rootVC;
-@property (weak,nonatomic) id<BOLoginViewControllerDelegate> delegate;
+
+@property (weak,nonatomic) id<BOWLoginViewControllerDelegate> delegate;
 @end

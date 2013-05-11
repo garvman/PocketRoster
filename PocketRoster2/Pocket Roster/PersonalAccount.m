@@ -54,11 +54,13 @@
  NSString *athleteSport;
  [scanner scanUpToString:@"AthleteName" intoString:&athleteSport];
  NSLog(@" %@", athleteSport);
+    [self.athleteTitle setText:athleteSport];
     
     NSString *gradeYear = @"GradeYear";
   [scanner scanUpToString:gradeYear intoString:NULL];
     [scanner scanUpToString:@"Events" intoString:&gradeYear];
     NSLog(@" %@", gradeYear);
+    [self.athleteTitle setText:athleteSport];
     
     NSString *athleteEvents = @"Events";
     [scanner scanUpToString:athleteEvents intoString:NULL];

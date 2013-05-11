@@ -1,13 +1,12 @@
 //
 //  BOWLoginViewController.m
-//  Pocket Roster
 //
-//  Created by Ryan Kulesza on 5/9/13.
-//  Copyright (c) 2013 Pocket Roster. All rights reserved.
+//  Created by Andrew Currier on 4/26/13.
+//  Copyright (c) 2013 Bowdoin College. All rights reserved.
 //
 
 #import "BOWLoginViewController.h"
-#import "BOLoginViewControllerDelegate.h"
+#import "BOWLoginViewControllerDelegate.h"
 
 @interface BOWLoginViewController ()
 
@@ -19,10 +18,6 @@
 @property (strong, nonatomic) NSMutableData *receivedData;
 - (void)doLogin;
 - (void)resetAfterFailure;
-
-- (IBAction)LoginButtonPressed:(UIButton *)sender;
-
-@property NSString *userName;
 
 @end
 
@@ -47,10 +42,10 @@
     
     [super viewDidLoad];
     self.receivedData = [[NSMutableData alloc] init];
-    UIImage *loginButtonImage = [[UIImage imageNamed:@"loginbutton.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(14,14,14,14)];
-    [self.loginButton setTitle:@"" forState:UIControlStateDisabled];
-    [self.loginButton setBackgroundImage:loginButtonImage forState:UIControlStateNormal];
-    [self.loginButton setTitle:@"Log in" forState:UIControlStateNormal];
+    //UIImage *loginButtonImage = [[UIImage imageNamed:@"loginbutton.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(14,14,14,14)];
+    //[self.loginButton setTitle:@"" forState:UIControlStateDisabled];
+    //[self.loginButton setBackgroundImage:loginButtonImage forState:UIControlStateNormal];
+    //[self.loginButton setTitle:@"Log in" forState:UIControlStateNormal];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -104,7 +99,7 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-    
+        
     NSLog(@"Connection failed");
     [self resetAfterFailure];
 }
@@ -112,7 +107,7 @@
 - (void)resetAfterFailure {
     
     NSLog(@"Login failure");
-    
+
     [self.userField becomeFirstResponder];
     self.spinner.alpha = 0.0;
     self.loginButton.enabled = YES;
@@ -124,21 +119,22 @@
                          self.loginButton.alpha = 1.0;
                      }
                      completion:^(BOOL finished){}
-     ];
+     ];    
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
-    
+
     [self.receivedData appendData:data];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    
+
     NSString *loginInfo = [[NSString alloc] initWithData:self.receivedData encoding:NSUTF8StringEncoding];
     
     if ([loginInfo isEqualToString:@"0"]) {
         [self.delegate loginDidFail];
         [self resetAfterFailure];
+        
     } else {
         NSLog(@"Login success: %@",loginInfo);
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -146,6 +142,7 @@
         [defaults synchronize];
         [self.delegate loginDidSucceedWithInfo:loginInfo];
         [self dismissViewControllerAnimated:YES completion:nil];
+        [self performSegueWithIdentifier:@"loginButtonPressed" sender:self];
     }
 }
 
@@ -158,22 +155,9 @@
     }
     return YES;
 }
-
- - (IBAction)LoginButtonPressed:(UIButton *)sender {
- NSString *username = sender.userField;
- self.userNameToPassOn = [NSString *username];
- NSLog(@"Username is %@", username);
- 
- }
- 
- -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- if([segue.destinationViewController isKindOfClass:[PersonalAccount class]])
- {
- PersonalAccount *destination = (PersonalAccount *) segue.destinationViewController;
- destination.username = self.userNameToPassOn;
-  }
- }
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+        
+}
 
 @end

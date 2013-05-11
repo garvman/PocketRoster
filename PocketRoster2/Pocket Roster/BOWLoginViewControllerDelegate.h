@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol BOLoginViewControllerDelegate <NSObject>
+@protocol BOWLoginViewControllerDelegate <NSObject>
 
 - (void)loginDidSucceedWithInfo:(NSString *)loginInfo;
 - (void)loginDidFail;
