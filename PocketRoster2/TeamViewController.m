@@ -48,8 +48,17 @@
             nFVC.teamName = self.teamName;
         }
         
-        [segue.destinationViewController setTeamName:self.teamName];
+        //[segue.destinationViewController setTeamName:self.teamName];
         
+    }
+    else if ([segue.identifier isEqualToString:@"sTeamNews"]){
+        self.teamName = @"swimmingM";
+        
+        
+        if ([segue.destinationViewController isKindOfClass:[NewsFeedViewController class]]) {
+            NewsFeedViewController *nFVC = (NewsFeedViewController *)segue.destinationViewController;
+            nFVC.teamName = self.teamName;
+        }
     }
 }
 
