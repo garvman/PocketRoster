@@ -43,6 +43,9 @@
     if ([segue.identifier isEqualToString:@"embedNews"]) {
         NSLog(@"%@", self.teamName);
         
+        if(self.teamName == nil){
+            self.teamName = @"general";
+        }
         
         
         if([segue.destinationViewController isKindOfClass:[RSSTVC class]]){

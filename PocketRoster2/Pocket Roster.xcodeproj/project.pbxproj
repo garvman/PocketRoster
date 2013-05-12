@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E18AACC174002A200AFA86F /* BowdoinNews.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E18AACB174002A200AFA86F /* BowdoinNews.png */; };
 		1E2F1772172881B80023515F /* mensCrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F176C172881B70023515F /* mensCrew.jpg */; };
 		1E2F1773172881B80023515F /* mensGolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F176D172881B70023515F /* mensGolf.jpg */; };
 		1E2F1774172881B80023515F /* mensRugby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F176E172881B70023515F /* mensRugby.jpg */; };
@@ -280,6 +281,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E18AACB174002A200AFA86F /* BowdoinNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowdoinNews.png; sourceTree = "<group>"; };
 		1E2F176C172881B70023515F /* mensCrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mensCrew.jpg; sourceTree = "<group>"; };
 		1E2F176D172881B70023515F /* mensGolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mensGolf.jpg; sourceTree = "<group>"; };
 		1E2F176E172881B70023515F /* mensRugby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mensRugby.jpg; sourceTree = "<group>"; };
@@ -637,6 +639,7 @@
 			isa = PBXGroup;
 			children = (
 				CF247A6C173BF7AB0079AD32 /* BowdoinClubFinal.png */,
+				1E18AACB174002A200AFA86F /* BowdoinNews.png */,
 				CF247A55173BD91D0079AD32 /* LoginButton2.png */,
 				CF247A4D173BD6890079AD32 /* wordmark.png */,
 				CF247A4B173BD31B0079AD32 /* BowdoinLogin.jpg */,
@@ -1175,6 +1178,7 @@
 				CF247A94173C2FA30079AD32 /* WCrewFinal.png in Resources */,
 				CF247A97173C307D0079AD32 /* MGolfFinal.png in Resources */,
 				CF247A9A173C308F0079AD32 /* MCrewFinal.png in Resources */,
+				1E18AACC174002A200AFA86F /* BowdoinNews.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
