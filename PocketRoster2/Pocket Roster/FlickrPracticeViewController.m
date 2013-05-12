@@ -67,12 +67,13 @@
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section;
 {
     NSString *searchTerm = self.searches[section];
-      
+    //NSLog(@"%d", [self.searchResults[searchTerm] count]);
     return [self.searchResults[searchTerm] count];
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
+    
     return [self.searches count];
 }
 

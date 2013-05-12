@@ -16,11 +16,21 @@
 		1E2F177A172883550023515F /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F1779172883550023515F /* ScheduleCell.m */; };
 		1E2F177D1728837D0023515F /* ScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F177C1728837D0023515F /* ScheduleTVC.m */; };
 		1E4837971734C04F008D8C06 /* FootballRosterPictures in Resources */ = {isa = PBXBuildFile; fileRef = 1E4837961734C04F008D8C06 /* FootballRosterPictures */; };
+		1EA69CD9173F1C2300C31786 /* News Story View Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA69CD8173F1C2300C31786 /* News Story View Controller.m */; };
 		1EBB3DF017223EF40032238C /* 9.-Bowdoin-College.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DEC17223EF40032238C /* 9.-Bowdoin-College.png */; };
 		1EBB3DF117223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DED17223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg */; };
 		1EBB3DF217223EF40032238C /* winter-quad-266.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DEE17223EF40032238C /* winter-quad-266.jpg */; };
 		1EBB3DF317223EF40032238C /* Bowdoin_College_Quad_308x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB3DEF17223EF40032238C /* Bowdoin_College_Quad_308x150.jpg */; };
 		1EBB3DF9172256AD0032238C /* RosterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB3DF8172256AD0032238C /* RosterTVC.m */; };
+		1ECC555F173F092400EBD61D /* RSSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555A173F092400EBD61D /* RSSCell.m */; };
+		1ECC5560173F092400EBD61D /* RSSTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555C173F092400EBD61D /* RSSTVC.m */; };
+		1ECC5561173F092400EBD61D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555E173F092400EBD61D /* WebViewController.m */; };
+		1ECC557A173F0DF300EBD61D /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5573173F0DF300EBD61D /* RSSEntry.m */; };
+		1ECC557B173F0DF300EBD61D /* RSSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */; };
+		1ECC557C173F0DF300EBD61D /* RSSHomeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */; };
+		1ECC557D173F0DF300EBD61D /* RSSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5579173F0DF300EBD61D /* RSSWebView.m */; };
+		1ECC5583173F0FDD00EBD61D /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5582173F0FDD00EBD61D /* NewsFeedViewController.m */; };
+		1ECC5586173F168200EBD61D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5585173F168200EBD61D /* TeamViewController.m */; };
 		1EFF35BF1725EFFA003A5A1E /* RosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF35BE1725EFFA003A5A1E /* RosterCell.m */; };
 		CF247A19173B40C50079AD32 /* LiveScoresLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A18173B40C50079AD32 /* LiveScoresLogo.png */; };
 		CF247A1B173B40D10079AD32 /* MyPhotosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF247A1A173B40D10079AD32 /* MyPhotosLogo.png */; };
@@ -281,12 +291,32 @@
 		1E2F177B1728837D0023515F /* ScheduleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTVC.h; sourceTree = "<group>"; };
 		1E2F177C1728837D0023515F /* ScheduleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTVC.m; sourceTree = "<group>"; };
 		1E4837961734C04F008D8C06 /* FootballRosterPictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootballRosterPictures; sourceTree = "<group>"; };
+		1EA69CD7173F1C2300C31786 /* News Story View Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "News Story View Controller.h"; path = "../News Story View Controller.h"; sourceTree = "<group>"; };
+		1EA69CD8173F1C2300C31786 /* News Story View Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "News Story View Controller.m"; path = "../News Story View Controller.m"; sourceTree = "<group>"; };
 		1EBB3DEC17223EF40032238C /* 9.-Bowdoin-College.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9.-Bowdoin-College.png"; sourceTree = "<group>"; };
 		1EBB3DED17223EF40032238C /* bowdoin-hubbard-hall-spring-2012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bowdoin-hubbard-hall-spring-2012.jpg"; sourceTree = "<group>"; };
 		1EBB3DEE17223EF40032238C /* winter-quad-266.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "winter-quad-266.jpg"; sourceTree = "<group>"; };
 		1EBB3DEF17223EF40032238C /* Bowdoin_College_Quad_308x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bowdoin_College_Quad_308x150.jpg; sourceTree = "<group>"; };
 		1EBB3DF7172256AD0032238C /* RosterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosterTVC.h; path = ../RosterTVC.h; sourceTree = "<group>"; };
 		1EBB3DF8172256AD0032238C /* RosterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RosterTVC.m; path = ../RosterTVC.m; sourceTree = "<group>"; };
+		1ECC5559173F092400EBD61D /* RSSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSCell.h; sourceTree = "<group>"; };
+		1ECC555A173F092400EBD61D /* RSSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSCell.m; sourceTree = "<group>"; };
+		1ECC555B173F092400EBD61D /* RSSTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTVC.h; sourceTree = "<group>"; };
+		1ECC555C173F092400EBD61D /* RSSTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTVC.m; sourceTree = "<group>"; };
+		1ECC555D173F092400EBD61D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1ECC555E173F092400EBD61D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		1ECC5572173F0DF300EBD61D /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
+		1ECC5573173F0DF300EBD61D /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
+		1ECC5574173F0DF300EBD61D /* RSSHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSHomeCell.h; sourceTree = "<group>"; };
+		1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSHomeCell.m; sourceTree = "<group>"; };
+		1ECC5576173F0DF300EBD61D /* RSSHomeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSHomeTVC.h; sourceTree = "<group>"; };
+		1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSHomeTVC.m; sourceTree = "<group>"; };
+		1ECC5578173F0DF300EBD61D /* RSSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSWebView.h; sourceTree = "<group>"; };
+		1ECC5579173F0DF300EBD61D /* RSSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSWebView.m; sourceTree = "<group>"; };
+		1ECC5581173F0FDD00EBD61D /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		1ECC5582173F0FDD00EBD61D /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		1ECC5584173F168200EBD61D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamViewController.h; path = ../TeamViewController.h; sourceTree = "<group>"; };
+		1ECC5585173F168200EBD61D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamViewController.m; path = ../TeamViewController.m; sourceTree = "<group>"; };
 		1EFF35BD1725EFFA003A5A1E /* RosterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosterCell.h; path = ../RosterCell.h; sourceTree = "<group>"; };
 		1EFF35BE1725EFFA003A5A1E /* RosterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RosterCell.m; path = ../RosterCell.m; sourceTree = "<group>"; };
 		CF247A18173B40C50079AD32 /* LiveScoresLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LiveScoresLogo.png; sourceTree = "<group>"; };
@@ -556,6 +586,53 @@
 			name = "Swim Team";
 			sourceTree = "<group>";
 		};
+		1ECC557E173F0EE400EBD61D /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF35BD1725EFFA003A5A1E /* RosterCell.h */,
+				1EFF35BE1725EFFA003A5A1E /* RosterCell.m */,
+				1EBB3DF7172256AD0032238C /* RosterTVC.h */,
+				1EBB3DF8172256AD0032238C /* RosterTVC.m */,
+			);
+			name = Roster;
+			sourceTree = "<group>";
+		};
+		1ECC557F173F0EF300EBD61D /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F1778172883550023515F /* ScheduleCell.h */,
+				1E2F1779172883550023515F /* ScheduleCell.m */,
+				1E2F177B1728837D0023515F /* ScheduleTVC.h */,
+				1E2F177C1728837D0023515F /* ScheduleTVC.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		1ECC5580173F0F0500EBD61D /* RSS News */ = {
+			isa = PBXGroup;
+			children = (
+				1EA69CD7173F1C2300C31786 /* News Story View Controller.h */,
+				1EA69CD8173F1C2300C31786 /* News Story View Controller.m */,
+				1ECC5581173F0FDD00EBD61D /* NewsFeedViewController.h */,
+				1ECC5582173F0FDD00EBD61D /* NewsFeedViewController.m */,
+				1ECC5559173F092400EBD61D /* RSSCell.h */,
+				1ECC555A173F092400EBD61D /* RSSCell.m */,
+				1ECC555B173F092400EBD61D /* RSSTVC.h */,
+				1ECC555C173F092400EBD61D /* RSSTVC.m */,
+				1ECC555D173F092400EBD61D /* WebViewController.h */,
+				1ECC555E173F092400EBD61D /* WebViewController.m */,
+				1ECC5572173F0DF300EBD61D /* RSSEntry.h */,
+				1ECC5573173F0DF300EBD61D /* RSSEntry.m */,
+				1ECC5574173F0DF300EBD61D /* RSSHomeCell.h */,
+				1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */,
+				1ECC5576173F0DF300EBD61D /* RSSHomeTVC.h */,
+				1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */,
+				1ECC5578173F0DF300EBD61D /* RSSWebView.h */,
+				1ECC5579173F0DF300EBD61D /* RSSWebView.m */,
+			);
+			name = "RSS News";
+			sourceTree = "<group>";
+		};
 		CF247A16173B408F0079AD32 /* General Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -737,14 +814,11 @@
 				CF4684E2173DFD59001F8A1F /* Flickr */,
 				CF247A74173C0B8D0079AD32 /* PersonalAccount.m */,
 				CF247A73173C0B8D0079AD32 /* PersonalAccount.h */,
-				1EFF35BD1725EFFA003A5A1E /* RosterCell.h */,
-				1EFF35BE1725EFFA003A5A1E /* RosterCell.m */,
-				1EBB3DF7172256AD0032238C /* RosterTVC.h */,
-				1EBB3DF8172256AD0032238C /* RosterTVC.m */,
-				1E2F1778172883550023515F /* ScheduleCell.h */,
-				1E2F1779172883550023515F /* ScheduleCell.m */,
-				1E2F177B1728837D0023515F /* ScheduleTVC.h */,
-				1E2F177C1728837D0023515F /* ScheduleTVC.m */,
+				1ECC5584173F168200EBD61D /* TeamViewController.h */,
+				1ECC5585173F168200EBD61D /* TeamViewController.m */,
+				1ECC557E173F0EE400EBD61D /* Roster */,
+				1ECC5580173F0F0500EBD61D /* RSS News */,
+				1ECC557F173F0EF300EBD61D /* Schedule */,
 				CF6569131717863100AE84AC /* FlickrPhotoTableViewController.h */,
 				CF6569141717863100AE84AC /* FlickrPhotoTableViewController.m */,
 				CF65691B171787DF00AE84AC /* AppDelegate.h */,
@@ -1151,6 +1225,16 @@
 				CF4684F5173DFD9B001F8A1F /* FlickrPracticeViewController.m in Sources */,
 				CF4684F6173DFD9B001F8A1F /* FlickrPhotoHeaderView.m in Sources */,
 				CF468501173E0246001F8A1F /* FlickrPhotoCell.m in Sources */,
+				1ECC555F173F092400EBD61D /* RSSCell.m in Sources */,
+				1ECC5560173F092400EBD61D /* RSSTVC.m in Sources */,
+				1ECC5561173F092400EBD61D /* WebViewController.m in Sources */,
+				1ECC557A173F0DF300EBD61D /* RSSEntry.m in Sources */,
+				1ECC557B173F0DF300EBD61D /* RSSHomeCell.m in Sources */,
+				1ECC557C173F0DF300EBD61D /* RSSHomeTVC.m in Sources */,
+				1ECC557D173F0DF300EBD61D /* RSSWebView.m in Sources */,
+				1ECC5583173F0FDD00EBD61D /* NewsFeedViewController.m in Sources */,
+				1ECC5586173F168200EBD61D /* TeamViewController.m in Sources */,
+				1EA69CD9173F1C2300C31786 /* News Story View Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
