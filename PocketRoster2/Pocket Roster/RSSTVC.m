@@ -78,19 +78,22 @@
 }
 
 -(NSString*)getCorrectURL{
+    
+    
+    
     NSString *sURL = [[NSString alloc]init];
-    if([self.teamName isEqualToString:@"general"])
+    if([self.teamName isEqualToString:@"General"])
         sURL = genURL;
-    else if ([self.teamName isEqualToString:@"football"])
+    else if ([self.teamName isEqualToString:@"Football"])
         sURL = footURL;
-    else if ([self.teamName isEqualToString: @"swimmingM"])
+    else if ([self.teamName isEqualToString: @"Mens Swimming and Diving"])
         sURL = swimMURL;
-    else if ([self.teamName isEqualToString: @"baseball"])
+    else if ([self.teamName isEqualToString: @"Baseball"])
         sURL = baseballURL;
-    else if ([self.teamName isEqualToString: @"lacrossM"])
+    else if ([self.teamName isEqualToString: @"Mens Lacrosse"])
         sURL = laxMURL;
     
-    
+    NSLog(@"%@   %@\n", self.teamName, sURL);
        
     return sURL;
 }

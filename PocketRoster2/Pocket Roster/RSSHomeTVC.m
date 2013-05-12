@@ -97,6 +97,12 @@
                 NSString *team = [self.teams objectAtIndex:indexPath.row];
                 
                 NSLog(@"%@", team);
+                
+                
+                if ([segue.destinationViewController isKindOfClass:[NewsFeedViewController class]]) {
+                    NewsFeedViewController *nFVC = (NewsFeedViewController *)segue.destinationViewController;
+                    nFVC.teamName = team;
+                }
                 //[segue.destinationViewController setTeam:team];
                 //[segue.destinationViewController setTitle:self.currentTitle];
                 

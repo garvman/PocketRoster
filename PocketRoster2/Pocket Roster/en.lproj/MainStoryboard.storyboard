@@ -3828,7 +3828,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DOg-gk-edS" kind="modal" identifier="homeNews" id="79N-hn-V3Y"/>
+                                    <segue destination="xgf-pa-f2U" kind="modal" id="KpL-3D-cg5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6251,7 +6251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppy-Sj-K7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256" y="-379"/>
+            <point key="canvasLocation" x="-62" y="-127"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="w9l-gC-Ean">
@@ -6460,7 +6460,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fk2-VS-bcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="291" y="-279"/>
+            <point key="canvasLocation" x="-27" y="-27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oCU-b0-dDz">
@@ -7527,7 +7527,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMO-6V-wqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1544" y="-2435"/>
+            <point key="canvasLocation" x="2987" y="-2491"/>
         </scene>
         <!--Flickr Practice View Controller-->
         <scene sceneID="pZd-u4-fyw">
@@ -7750,7 +7750,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcO-oc-kPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1920" y="-2435"/>
+            <point key="canvasLocation" x="3363" y="-2491"/>
         </scene>
         <!--Flickr Photo View Controller-->
         <scene sceneID="qvI-Gr-sDO">
@@ -8027,6 +8027,7 @@
                                 </view>
                                 <connections>
                                     <outlet property="teamName" destination="Fiz-gS-VQc" id="qiN-ig-03i"/>
+                                    <segue destination="DOg-gk-edS" kind="modal" identifier="teamPush" id="ydm-gM-c9Z"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -8039,7 +8040,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sHb-ri-I1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1222" y="-4021"/>
+            <point key="canvasLocation" x="-968" y="-667"/>
         </scene>
         <!--RSSTVC-->
         <scene sceneID="839-Sh-bJb">
@@ -8155,6 +8156,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="FM3-qD-uOc" kind="modal" id="LBq-rf-PRY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nAO-7l-cQJ">
                                 <rect key="frame" x="0.0" y="72" width="320" height="4"/>
@@ -8163,17 +8167,17 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Winter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FXy-aa-URp">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FXy-aa-URp">
                                 <rect key="frame" x="9" y="32" width="126" height="42"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Men's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pNe-C4-F8b">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bowdoin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pNe-C4-F8b">
                                 <rect key="frame" x="9" y="5" width="119" height="42"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -8193,7 +8197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZx-6L-hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="791" y="-3637"/>
+            <point key="canvasLocation" x="-1071" y="-767"/>
         </scene>
         <!--News Feed View Controller-->
         <scene sceneID="EBJ-8i-JhF">
@@ -8802,7 +8806,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9S-5q-xde" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-639" y="-701"/>
+            <point key="canvasLocation" x="-153" y="-493"/>
         </scene>
         <!--News Feed View Controller-->
         <scene sceneID="SPH-OO-QpK">
@@ -8839,7 +8843,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="AcR-Uc-r6l"/>
+                                    <segue destination="xgf-pa-f2U" kind="modal" id="2nX-Ws-d5B"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4rr-xS-9BQ">
@@ -8879,7 +8883,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1V7-Bu-Ljd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-862" y="-862"/>
+            <point key="canvasLocation" x="-500" y="-639"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="864-Na-XfK">
@@ -8904,7 +8908,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKc-WD-548" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-178" y="-605"/>
+            <point key="canvasLocation" x="308" y="-397"/>
         </scene>
         <!--News Story View Controller-->
         <scene sceneID="9AI-Ed-JDQ">
@@ -8981,7 +8985,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvR-Mx-yNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-399" y="-723"/>
+            <point key="canvasLocation" x="87" y="-515"/>
         </scene>
     </scenes>
     <resources>
@@ -9234,8 +9238,9 @@
         <segue reference="pJa-yQ-HyK"/>
         <segue reference="AC6-6B-ye5"/>
         <segue reference="aQY-iF-qOK"/>
-        <segue reference="79N-hn-V3Y"/>
-        <segue reference="AcR-Uc-r6l"/>
+        <segue reference="ydm-gM-c9Z"/>
+        <segue reference="2nX-Ws-d5B"/>
+        <segue reference="LBq-rf-PRY"/>
         <segue reference="1YT-yN-vOm"/>
         <segue reference="1cP-Of-ahw"/>
         <segue reference="dcF-hv-hmo"/>
