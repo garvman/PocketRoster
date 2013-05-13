@@ -11,6 +11,7 @@
 
 @interface FlickrPracticeViewController : UIViewController < UITextFieldDelegate>
 
+@property (nonatomic) NSString *teamName;
 
 
 @end

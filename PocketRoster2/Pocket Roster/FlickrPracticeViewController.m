@@ -12,6 +12,8 @@
 #import "FlickrPhotoCell.h"
 #import "FlickrPhotoHeaderView.h"
 #import "FlickrPhotoViewController.h"
+#define imagePrefix @"BowdoinPocketRoster"
+
 
 @interface FlickrPracticeViewController () <UITextFieldDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
 @property(nonatomic, weak) IBOutlet UIToolbar *toolbar;
@@ -47,7 +49,21 @@
      **********************************************************
      */
     UITextField *textField = [[UITextField alloc] init];
-    textField.text = @"Bowdoin Pocket Roster";
+    
+    NSString *teamPhotos;
+    
+    if(self.teamName){
+        NSLog(@"%@\n", self.teamName);
+        teamPhotos = [NSString stringWithFormat:@"BowdoinPocketRoster%@", self.teamName];
+        NSLog(@"%@", teamPhotos);
+    }
+    else{
+        NSLog(@"suck my balls");
+        teamPhotos = @"Bowdoin Pocket Roster";
+    }
+    
+    
+    textField.text = teamPhotos;
     
     [self textFieldShouldReturn:textField];
 }
@@ -67,13 +83,13 @@
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section;
 {
     NSString *searchTerm = self.searches[section];
-    //NSLog(@"%d", [self.searchResults[searchTerm] count]);
+    NSLog(@"itemsinsection%d", [self.searchResults[searchTerm] count]);
     return [self.searchResults[searchTerm] count];
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    
+    NSLog(@"sections%d", [self.searches count]);
     return [self.searches count];
 }
 

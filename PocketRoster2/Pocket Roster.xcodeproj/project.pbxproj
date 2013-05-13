@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E15B58F174081DF006D1881 /* mensSwimmingSchedule.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E15B58E174081DF006D1881 /* mensSwimmingSchedule.txt */; };
+		1E15B59217408334006D1881 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B59117408334006D1881 /* ScheduleViewController.m */; };
 		1E18AACC174002A200AFA86F /* BowdoinNews.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E18AACB174002A200AFA86F /* BowdoinNews.png */; };
 		1E2F1772172881B80023515F /* mensCrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F176C172881B70023515F /* mensCrew.jpg */; };
 		1E2F1773172881B80023515F /* mensGolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F176D172881B70023515F /* mensGolf.jpg */; };
@@ -281,6 +283,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E15B58E174081DF006D1881 /* mensSwimmingSchedule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mensSwimmingSchedule.txt; sourceTree = "<group>"; };
+		1E15B59017408334006D1881 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		1E15B59117408334006D1881 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		1E18AACB174002A200AFA86F /* BowdoinNews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowdoinNews.png; sourceTree = "<group>"; };
 		1E2F176C172881B70023515F /* mensCrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mensCrew.jpg; sourceTree = "<group>"; };
 		1E2F176D172881B70023515F /* mensGolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mensGolf.jpg; sourceTree = "<group>"; };
@@ -534,6 +539,7 @@
 		1EBB3DF4172241650032238C /* Swim Team */ = {
 			isa = PBXGroup;
 			children = (
+				1E15B58E174081DF006D1881 /* mensSwimmingSchedule.txt */,
 				CF833BD21721821B0011DED3 /* Kaley Kokomoor.jpg */,
 				CF833BD31721821B0011DED3 /* Helen Newton.jpg */,
 				CF833BD41721821B0011DED3 /* Maeve O'Leary.jpg */,
@@ -774,6 +780,8 @@
 		CF6568C5171782B700AE84AC = {
 			isa = PBXGroup;
 			children = (
+				1E15B59017408334006D1881 /* ScheduleViewController.h */,
+				1E15B59117408334006D1881 /* ScheduleViewController.m */,
 				CF468506173F04A5001F8A1F /* Icon.png */,
 				CF4684BE173DBF8E001F8A1F /* TumbnailFinal */,
 				CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */,
@@ -1094,6 +1102,7 @@
 				CF4684DB173DC4D0001F8A1F /* LoginButton.png in Resources */,
 				CF4684E1173DF963001F8A1F /* Icon.png in Resources */,
 				CF468507173F04A5001F8A1F /* Icon.png in Resources */,
+				1E15B58F174081DF006D1881 /* mensSwimmingSchedule.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,6 +1248,7 @@
 				1ECC5583173F0FDD00EBD61D /* NewsFeedViewController.m in Sources */,
 				1ECC5586173F168200EBD61D /* TeamViewController.m in Sources */,
 				1EA69CD9173F1C2300C31786 /* News Story View Controller.m in Sources */,
+				1E15B59217408334006D1881 /* ScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

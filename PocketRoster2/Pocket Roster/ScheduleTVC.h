@@ -11,7 +11,8 @@
 @interface ScheduleTVC : UITableViewController
 
 @property (nonatomic) NSMutableDictionary *scheduleInfo;
-@property (nonatomic) NSString *key;
+@property (nonatomic) NSString *key, *teamName;
+
 
 -(void)initializeSchedule;
 

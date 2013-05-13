@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *dateOfContest;
 @property (weak, nonatomic) IBOutlet UILabel *result;
 
+
 @end

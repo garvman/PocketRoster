@@ -47,10 +47,17 @@
 
 -(void)initializeSchedule{
     
-   
+    NSString *filepath;
     
     NSError *error = nil;
-    NSString *filepath = [[NSBundle mainBundle]pathForResource:@"football2012results" ofType:@"txt" inDirectory:@"FootballRosterPictures"];
+    
+    if ([self.teamName isEqualToString: @"Football"]) {
+        filepath = [[NSBundle mainBundle]pathForResource:@"football2012results" ofType:@"txt" inDirectory:@"FootballRosterPictures"];
+    }
+    else if ([self.teamName isEqualToString:@"Mens Swimming and Diving"]){
+        filepath = [[NSBundle mainBundle]pathForResource:@"mensSwimmingSchedule" ofType:@"txt"];
+    }
+    
     NSString *fileInfo = [NSString stringWithContentsOfFile:filepath encoding: NSUTF8StringEncoding error:&error];
     
     if (error) {
