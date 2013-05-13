@@ -5,7 +5,36 @@
 //  Created by Ryan Kulesza on 4/22/13.
 //  Copyright (c) 2013 Kulesza Productions. All rights reserved.
 //
-
+/**
+ * *************************************************
+ *                                               *
+ *              IBAction - Done                  *
+ *                                               *
+ *************************************************
+* By Ryan Kulesza
+*
+* This is code I used after going through a tutorial
+* on setting up a photo collection from Flickr
+* http://www.raywenderlich.com/22324/beginning-uicollectionview-in-ios-6-part-12
+* This site had the backbones of what I needed. I tried using the Stanford code
+* However, apart from being hard to understand I realized it pulls recient downloads
+* and through a lot of research I learned that I could not
+* use my own album that Flickr was hard to use unless it was public
+* This tutorial created a program that allowed one to search on flickr
+* So I found a way to access my account using this idea of searches. 
+ * The code takes the search key (originally entered by the user) and searches 
+ * all of flickr for photos with those tags
+ * My idea was to creat PhotoRoster specific tags that I 
+ * could prepare and preenter so when a user enters a certain page 
+ * that tag would be put in and the result would be loaded onto the
+ * page.
+ * This took more work than I expected. The tutorial 
+ * had holes and things that went unanswered but in the end I figured out 
+ * a way to successfully implement it 
+ * 
+ * Flickr uploading and setting proper privacy setting and tagging setting proved 
+ * timely 
+*/
 #import "FlickrPracticeViewController.h"
 #import "FlickrPhoto.h"
 #import "Flickr.h"
@@ -16,6 +45,15 @@
 
 
 @interface FlickrPracticeViewController () <UITextFieldDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
+
+/**
+*************************************************
+*                                               *
+*                 Properties                    *
+*                                               *
+*************************************************
+ */
+
 @property(nonatomic, weak) IBOutlet UIToolbar *toolbar;
 @property(nonatomic, weak) IBOutlet UIBarButtonItem *shareButton;
 @property(nonatomic, weak) IBOutlet UITextField *textField;
@@ -32,33 +70,66 @@
 
 @implementation FlickrPracticeViewController
 
+/**
+ *************************************************
+ *                                               *
+ *                View Did Load                  *
+ *                                               *
+ *************************************************
+ */
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+            // Do any additional setup after loading the view, typically from a nib.
     self.searches = [@[] mutableCopy];
     self.searchResults = [@{} mutableCopy];
     self.flickr = [[Flickr alloc] init];
-   //self.flickr = [[Flickr alloc] init];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier: @"MY_CELL"];
+    /**
+     -------------------------
+     |        NSLOG          |
+     -------------------------
+     */
     
     NSLog(@"View Loaded");
     /**
      **********************************************************
      *                           KEY                          *
      **********************************************************
+     * 
+     * This is where we set the search on flickr.
+     * These are predetermined tags that will return Bowdoin sport photos 
+     * from a set Flickr account 
+     * 
+     * It is set up to recognize if a team was specified or if it just want most 
+     * recent uploaded photos 
      */
     UITextField *textField = [[UITextField alloc] init];
     
     NSString *teamPhotos;
     
     if(self.teamName){
+        /**
+         -------------------------
+         |        NSLOG          |
+         -------------------------
+         */
         NSLog(@"%@\n", self.teamName);
         teamPhotos = [NSString stringWithFormat:@"BowdoinPocketRoster%@", self.teamName];
+        /**
+         -------------------------
+         |        NSLOG          |
+         -------------------------
+         */
         NSLog(@"%@", teamPhotos);
     }
     else{
-        NSLog(@"suck my balls");
+        /**
+         -------------------------
+         |        NSLOG          |
+         -------------------------
+         */
+        NSLog(@"It did not work generic call was made!!!!!!");
         teamPhotos = @"Bowdoin Pocket Roster";
     }
     
@@ -79,6 +150,13 @@
     return YES;
 }
 
+/**
+ *************************************************
+ *                                               *
+ *        UICollectionView Datasource            *
+ *                                               *
+ *************************************************
+ */
 #pragma mark - UICollectionView Datasource
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section;
 {
@@ -113,6 +191,13 @@
     return headerView;
 }
 
+/**
+ *************************************************
+ *                                               *
+ *        UICollectionView Delegate              *
+ *                                               *
+ *************************************************
+ */
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
@@ -164,6 +249,13 @@
 {
     return UIEdgeInsetsMake(50, 50, 50, 50);
 }
+/**
+ *************************************************
+ *                                               *
+ *          UICollectionView Methods             *
+ *                                               *
+ *************************************************
+ */
 
 #pragma mark - UITextFieldDelegate methods
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
@@ -187,6 +279,13 @@
     return YES; 
 }
 
+/**
+ *************************************************
+ *                                               *
+ *           UICollectionView Segue              *
+ *                                               *
+ *************************************************
+ */
 #pragma mark - Segue
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

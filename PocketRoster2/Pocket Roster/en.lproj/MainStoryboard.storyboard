@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -26,7 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ffv-bF-og0" kind="modal" id="KkG-2F-FQc"/>
+                                    <segue destination="Ffv-bF-og0" kind="modal" modalTransitionStyle="crossDissolve" id="KkG-2F-FQc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pYl-sR-47Y">
@@ -112,7 +112,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="oEb-mo-Kmz"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="oEb-mo-Kmz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -160,7 +160,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2" kind="modal" id="qOz-vi-aCb"/>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="qOz-vi-aCb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yng-AB-qbl">
@@ -176,7 +176,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loggedIn:" destination="Ffv-bF-og0" eventType="touchUpInside" id="E7n-bv-mJR"/>
-                                    <segue destination="t0y-f0-NUh" kind="modal" identifier="loginButtonPressed" id="HQi-6a-cIF"/>
+                                    <segue destination="t0y-f0-NUh" kind="modal" identifier="loginButtonPressed" modalTransitionStyle="crossDissolve" id="HQi-6a-cIF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wordmark.png" id="MKd-Rx-4EX">
@@ -467,7 +467,7 @@
             <objects>
                 <viewController id="WYd-9r-OBm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JxP-GO-zNh">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VaX-ND-eaX">
@@ -1534,7 +1534,7 @@
             <objects>
                 <viewController id="RoX-p5-LKf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1N-M5-1mw">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <containerView contentMode="scaleToFill" id="VFr-2j-IpC">
@@ -2444,7 +2444,7 @@
             <objects>
                 <tableViewController id="RNG-KP-1ap" customClass="LatestFlickrPhotosTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="upJ-2B-JTb">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -2506,7 +2506,7 @@
             <objects>
                 <viewController id="wqP-Qe-311" customClass="ImageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1s-Hc-Tqr">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="my2-qR-NjO">
@@ -2939,7 +2939,7 @@
             <objects>
                 <tableViewController id="Qmo-4T-Wdp" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cQw-5q-6Gx">
-                        <rect key="frame" x="0.0" y="20" width="320" height="470"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="470"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -3530,7 +3530,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ffv-bF-og0" kind="modal" id="zKd-1U-8sy"/>
+                                    <segue destination="Ffv-bF-og0" kind="modal" modalTransitionStyle="crossDissolve" id="zKd-1U-8sy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cte-uf-Rze">
@@ -3562,7 +3562,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="dXq-WV-5TI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Ryan Kulesza.jpg" id="dXq-WV-5TI">
                                 <rect key="frame" x="232" y="83" width="76" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -3599,7 +3599,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KT7-4U-1cB" kind="modal" id="NcH-KL-A7s"/>
+                                    <segue destination="KT7-4U-1cB" kind="modal" modalTransitionStyle="crossDissolve" id="NcH-KL-A7s"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eUB-Dg-NAg">
@@ -3614,7 +3614,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="zUI-C3-444" kind="modal" id="AMa-2X-wGM"/>
+                                    <segue destination="zUI-C3-444" kind="modal" modalTransitionStyle="crossDissolve" id="AMa-2X-wGM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="N1y-4Q-8JO">
@@ -3629,14 +3629,14 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AiS-J6-CgR" kind="modal" id="pyb-Ve-Pzi"/>
+                                    <segue destination="AiS-J6-CgR" kind="modal" modalTransitionStyle="crossDissolve" id="pyb-Ve-Pzi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="a3H-ba-u2C">
                                 <rect key="frame" x="239" y="469" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="MyTeamsLogo.png">
+                                <state key="normal" title="Button" image="NewsfeedIcon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -3644,7 +3644,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="03I-Jk-Hdj" kind="modal" id="AqN-kQ-GNb"/>
+                                    <segue destination="03I-Jk-Hdj" kind="modal" modalTransitionStyle="crossDissolve" id="AqN-kQ-GNb"/>
                                 </connections>
                             </button>
                             <containerView contentMode="scaleToFill" id="PoI-EE-cXM">
@@ -3702,7 +3702,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2" kind="modal" id="GSa-bE-25Z"/>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="GSa-bE-25Z"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nFA-3F-bYG">
@@ -3753,7 +3753,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDt-el-hgw" kind="modal" id="dcF-hv-hmo"/>
+                                    <segue destination="KDt-el-hgw" kind="modal" modalTransitionStyle="crossDissolve" id="dcF-hv-hmo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OBE-5E-pyV">
@@ -3768,22 +3768,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="okC-To-hCW" kind="modal" id="1YT-yN-vOm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ytd-eP-0h0">
-                                <rect key="frame" x="12" y="444" width="99" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="LiveScoresBig.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="s76-vF-giZ" kind="modal" id="UV4-uh-00Y"/>
+                                    <segue destination="okC-To-hCW" kind="modal" modalTransitionStyle="crossDissolve" id="1YT-yN-vOm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bOa-Kl-WIi">
@@ -3798,7 +3783,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nKH-Oq-FFx" kind="modal" id="1cP-Of-ahw"/>
+                                    <segue destination="nKH-Oq-FFx" kind="modal" modalTransitionStyle="crossDissolve" id="1cP-Of-ahw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eaL-8f-D4U">
@@ -3813,14 +3798,14 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="465-Ng-AwR" kind="modal" id="ZuD-OT-Puq"/>
+                                    <segue destination="465-Ng-AwR" kind="modal" modalTransitionStyle="crossDissolve" id="ZuD-OT-Puq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ViS-LC-iim">
-                                <rect key="frame" x="111" y="449" width="99" height="100"/>
+                                <rect key="frame" x="20" y="437" width="99" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="News" image="BowdoinNews.png">
+                                <state key="normal" title="News" image="NewsfeedIcon.png" backgroundImage="NewsfeedIcon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -3828,7 +3813,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xgf-pa-f2U" kind="modal" id="KpL-3D-cg5"/>
+                                    <segue destination="xgf-pa-f2U" kind="modal" modalTransitionStyle="crossDissolve" id="KpL-3D-cg5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3844,7 +3829,7 @@
             <objects>
                 <viewController id="fZH-jo-bAx" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ry8-34-bHI">
-                        <rect key="frame" x="0.0" y="20" width="320" height="283"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="283"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -3947,7 +3932,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="Dbx-wD-861"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="Dbx-wD-861"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hlv-vP-TEA">
@@ -4016,7 +4001,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="BUJ-bR-NfF"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="BUJ-bR-NfF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WB3-TI-lmL">
@@ -4074,7 +4059,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="k2c-2s-zrX" id="M4z-tj-QAV"/>
-                        <segue destination="pA6-xL-bEN" kind="modal" identifier="ShowPhoto" id="d4N-2D-AJO"/>
+                        <segue destination="pA6-xL-bEN" kind="modal" identifier="ShowPhoto" modalTransitionStyle="crossDissolve" id="d4N-2D-AJO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A9V-k3-yDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4116,7 +4101,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="t0y-f0-NUh" kind="modal" id="dXr-Gq-Qef"/>
+                                    <segue destination="t0y-f0-NUh" kind="modal" modalTransitionStyle="crossDissolve" id="dXr-Gq-Qef"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zJQ-ir-4Ri">
@@ -4197,7 +4182,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="t0y-f0-NUh" kind="modal" id="ffG-QE-Whb"/>
+                                    <segue destination="t0y-f0-NUh" kind="modal" modalTransitionStyle="crossDissolve" id="ffG-QE-Whb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Live " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wFc-w5-qsS">
@@ -4278,7 +4263,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="t0y-f0-NUh" kind="modal" id="A0j-0F-zfe"/>
+                                    <segue destination="t0y-f0-NUh" kind="modal" modalTransitionStyle="crossDissolve" id="A0j-0F-zfe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Teams" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wyF-v6-GgY">
@@ -4469,7 +4454,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="asc-sR-ykV"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="asc-sR-ykV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMc-UW-o4s">
@@ -4546,7 +4531,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="jzQ-XN-hCw"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="jzQ-XN-hCw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hyg-yK-tga">
@@ -4623,7 +4608,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="zRP-ox-Xma"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="zRP-ox-Xma"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vda-Tz-Kzk">
@@ -4662,7 +4647,7 @@
             <objects>
                 <tableViewController id="uJT-dV-vNQ" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="SHP-MY-0Pv">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -4858,7 +4843,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="M1S-al-Em5" kind="modal" id="vfz-PZ-qU0"/>
+                                            <segue destination="M1S-al-Em5" kind="modal" modalTransitionStyle="crossDissolve" id="vfz-PZ-qU0"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="YtW-fz-ujc">
@@ -5002,7 +4987,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="XtR-Tk-IRT" kind="modal" id="78U-fW-9xe"/>
+                                            <segue destination="XtR-Tk-IRT" kind="modal" modalTransitionStyle="crossDissolve" id="78U-fW-9xe"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="155" id="gVa-cr-LzS">
@@ -5036,7 +5021,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="EC6-kB-hyh" kind="modal" id="NRU-Zi-5A0"/>
+                                            <segue destination="EC6-kB-hyh" kind="modal" modalTransitionStyle="crossDissolve" id="NRU-Zi-5A0"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="155" id="EGH-Mi-ovr">
@@ -5062,7 +5047,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="ffF-RB-0ZP" kind="modal" id="zai-Wp-m0F"/>
+                                            <segue destination="ffF-RB-0ZP" kind="modal" modalTransitionStyle="crossDissolve" id="zai-Wp-m0F"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -5113,7 +5098,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDt-el-hgw" kind="modal" id="W4Y-lq-PUX"/>
+                                    <segue destination="KDt-el-hgw" kind="modal" modalTransitionStyle="crossDissolve" id="W4Y-lq-PUX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w8g-xe-NWn">
@@ -5194,7 +5179,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="t0y-f0-NUh" kind="modal" id="yCL-Xr-dJB"/>
+                                    <segue destination="t0y-f0-NUh" kind="modal" modalTransitionStyle="crossDissolve" id="yCL-Xr-dJB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nq8-TS-xeW">
@@ -5245,7 +5230,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDt-el-hgw" kind="modal" id="99a-4K-KVs"/>
+                                    <segue destination="KDt-el-hgw" kind="modal" modalTransitionStyle="crossDissolve" id="99a-4K-KVs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hiY-CU-Jpy">
@@ -5260,7 +5245,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="okC-To-hCW" kind="modal" id="BWA-Xd-n8j"/>
+                                    <segue destination="okC-To-hCW" kind="modal" modalTransitionStyle="crossDissolve" id="BWA-Xd-n8j"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t0h-fC-crh">
@@ -5275,7 +5260,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="465-Ng-AwR" kind="modal" id="nC7-7u-IWG"/>
+                                    <segue destination="465-Ng-AwR" kind="modal" modalTransitionStyle="crossDissolve" id="nC7-7u-IWG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -5462,7 +5447,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDt-el-hgw" kind="modal" id="fzx-3O-J7p"/>
+                                    <segue destination="KDt-el-hgw" kind="modal" modalTransitionStyle="crossDissolve" id="fzx-3O-J7p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="esN-IK-f1t">
@@ -5539,7 +5524,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDt-el-hgw" kind="modal" id="We2-zD-CdN"/>
+                                    <segue destination="KDt-el-hgw" kind="modal" modalTransitionStyle="crossDissolve" id="We2-zD-CdN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SkB-gD-BxO">
@@ -5614,7 +5599,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="o6b-vx-ewQ" kind="modal" id="hTh-Tg-b3d"/>
+                                            <segue destination="o6b-vx-ewQ" kind="modal" modalTransitionStyle="crossDissolve" id="hTh-Tg-b3d"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="17f-g2-ySa">
@@ -5961,7 +5946,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="okC-To-hCW" kind="modal" id="hAc-fM-6Pb"/>
+                                    <segue destination="okC-To-hCW" kind="modal" modalTransitionStyle="crossDissolve" id="hAc-fM-6Pb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qr2-Hu-19r">
@@ -6211,7 +6196,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="okC-To-hCW" kind="modal" id="9K1-yJ-07q"/>
+                                    <segue destination="okC-To-hCW" kind="modal" modalTransitionStyle="crossDissolve" id="9K1-yJ-07q"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SLz-cQ-Vkd">
@@ -6497,7 +6482,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="okC-To-hCW" kind="modal" id="gGc-gB-5Zs"/>
+                                    <segue destination="okC-To-hCW" kind="modal" modalTransitionStyle="crossDissolve" id="gGc-gB-5Zs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4me-BH-Ml0">
@@ -6848,7 +6833,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="RUw-zW-KN8" id="33b-5A-uei"/>
-                        <segue destination="nKH-Oq-FFx" kind="modal" identifier="BackButton" id="XH6-md-xbU"/>
+                        <segue destination="nKH-Oq-FFx" kind="modal" identifier="BackButton" modalTransitionStyle="crossDissolve" id="XH6-md-xbU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDT-Co-9H5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -7029,7 +7014,7 @@
             <objects>
                 <viewController id="o6b-vx-ewQ" customClass="TeamViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yxL-Xx-HGE">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zKj-sq-a0e">
@@ -7040,7 +7025,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqY-9j-ZML">
-                                <rect key="frame" x="0.0" y="478" width="164" height="70"/>
+                                <rect key="frame" x="0.0" y="498" width="164" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7074,11 +7059,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5Re-Xa-sUp" kind="modal" id="DCW-bH-ckF"/>
+                                    <segue destination="5Re-Xa-sUp" kind="modal" modalTransitionStyle="crossDissolve" id="DCW-bH-ckF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TRX-nx-BTh">
-                                <rect key="frame" x="0.0" y="73" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="75" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7097,7 +7082,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hoV-rC-eiV">
-                                <rect key="frame" x="0.0" y="154" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="159" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7115,11 +7100,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="P19-ba-p3H" kind="modal" id="0XN-tP-XFx"/>
+                                    <segue destination="P19-ba-p3H" kind="modal" modalTransitionStyle="crossDissolve" id="0XN-tP-XFx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6HB-7r-cmB">
-                                <rect key="frame" x="-6" y="232" width="320" height="4"/>
+                                <rect key="frame" x="-6" y="240" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7137,18 +7122,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TVW-RX-gZ6" kind="modal" id="eBU-KF-hFg"/>
+                                    <segue destination="TVW-RX-gZ6" kind="modal" modalTransitionStyle="crossDissolve" id="eBU-KF-hFg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ulk-qU-eLR">
-                                <rect key="frame" x="0.0" y="310" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="321" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y40-Zs-aar">
-                                <rect key="frame" x="0.0" y="387" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="401" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7166,7 +7151,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5XB-UG-rYd" kind="modal" identifier="footballPhotos" id="ENY-we-KR1"/>
+                                    <segue destination="5XB-UG-rYd" kind="modal" identifier="footballPhotos" modalTransitionStyle="crossDissolve" id="ENY-we-KR1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ogk-Im-kqI">
@@ -7181,11 +7166,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="jTX-Ap-1U0" kind="modal" identifier="teamNews" id="zvz-BA-mCH"/>
+                                    <segue destination="jTX-Ap-1U0" kind="modal" identifier="teamNews" modalTransitionStyle="crossDissolve" id="zvz-BA-mCH"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4vl-4A-Lav">
-                                <rect key="frame" x="0.0" y="466" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="488" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7204,7 +7189,7 @@
             <objects>
                 <viewController id="mzP-8U-8sh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Edg-Ea-lbB">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="opX-2q-t51">
@@ -7215,7 +7200,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OJF-Sx-95x">
-                                <rect key="frame" x="0.0" y="498" width="164" height="70"/>
+                                <rect key="frame" x="0.0" y="478" width="164" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7253,7 +7238,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eOy-Kt-3vB">
-                                <rect key="frame" x="0.0" y="74" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="71" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7272,7 +7257,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iKh-Nf-8gb">
-                                <rect key="frame" x="0.0" y="156" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="150" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7291,7 +7276,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aji-FJ-B2t">
-                                <rect key="frame" x="0.0" y="263" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="253" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7310,7 +7295,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CNx-Cw-ZdL">
-                                <rect key="frame" x="0.0" y="373" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="359" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7328,11 +7313,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="op4-nT-GdU" kind="modal" id="4zL-kI-9TV"/>
+                                    <segue destination="op4-nT-GdU" kind="modal" modalTransitionStyle="crossDissolve" id="4zL-kI-9TV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Lt-PH-vfo">
-                                <rect key="frame" x="0.0" y="487" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="469" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -7351,7 +7336,7 @@
             <objects>
                 <viewController id="5XB-UG-rYd" customClass="FlickrPracticeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egz-4E-D2c">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyj-nd-gfL">
@@ -7381,11 +7366,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="o6b-vx-ewQ" kind="modal" id="0N3-hf-bal"/>
+                                    <segue destination="o6b-vx-ewQ" kind="modal" modalTransitionStyle="crossDissolve" id="0N3-hf-bal"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lmC-l6-7Cq">
-                                <rect key="frame" x="8" y="37" width="209" height="42"/>
+                                <rect key="frame" x="8" y="38" width="209" height="42"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="33"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -7393,14 +7378,14 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1FK-ng-vPU">
-                                <rect key="frame" x="0.0" y="73" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="75" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="60b-PQ-Yym">
-                                <rect key="frame" x="0.0" y="80" width="320" height="468"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="488"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l3O-RK-UZl">
@@ -7546,7 +7531,7 @@
             <objects>
                 <viewController id="op4-nT-GdU" customClass="FlickrPracticeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yiG-XH-aKj">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7wr-VJ-gDe">
@@ -7576,11 +7561,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mzP-8U-8sh" kind="modal" id="Ult-TE-i6F"/>
+                                    <segue destination="mzP-8U-8sh" kind="modal" modalTransitionStyle="crossDissolve" id="Ult-TE-i6F"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IuK-k0-2Z2">
-                                <rect key="frame" x="8" y="37" width="209" height="42"/>
+                                <rect key="frame" x="8" y="35" width="209" height="42"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="33"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -7588,14 +7573,14 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dcs-iN-n8e">
-                                <rect key="frame" x="0.0" y="74" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="71" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="PSG-Qp-H3g">
-                                <rect key="frame" x="0.0" y="80" width="320" height="488"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="468"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PSP-cd-get">
@@ -8017,7 +8002,7 @@
             <objects>
                 <tableViewController id="hc7-YG-V3Z" customClass="RSSHomeTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="79D-FI-1N7">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -8039,7 +8024,7 @@
                                 </view>
                                 <connections>
                                     <outlet property="teamName" destination="Fiz-gS-VQc" id="qiN-ig-03i"/>
-                                    <segue destination="DOg-gk-edS" kind="modal" identifier="teamPush" id="ydm-gM-c9Z"/>
+                                    <segue destination="DOg-gk-edS" kind="modal" identifier="teamPush" modalTransitionStyle="crossDissolve" id="ydm-gM-c9Z"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -8059,7 +8044,7 @@
             <objects>
                 <tableViewController id="5v1-oX-RyR" customClass="RSSTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="134" sectionHeaderHeight="22" sectionFooterHeight="22" id="iIh-WO-5sl">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -8114,7 +8099,7 @@
             <objects>
                 <viewController id="Oqy-tx-NC1" customClass="WebViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mTO-Mm-qi6">
-                        <rect key="frame" x="0.0" y="20" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="xTd-Qi-gBo">
@@ -8169,7 +8154,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FM3-qD-uOc" kind="modal" id="LBq-rf-PRY"/>
+                                    <segue destination="FM3-qD-uOc" kind="modal" modalTransitionStyle="crossDissolve" id="LBq-rf-PRY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nAO-7l-cQJ">
@@ -8209,7 +8194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZx-6L-hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1071" y="-767"/>
+            <point key="canvasLocation" x="-955" y="-767"/>
         </scene>
         <!--News Feed View Controller-->
         <scene sceneID="EBJ-8i-JhF">
@@ -8246,7 +8231,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="o6b-vx-ewQ" kind="modal" id="ltO-y1-pv5"/>
+                                    <segue destination="o6b-vx-ewQ" kind="modal" modalTransitionStyle="crossDissolve" id="ltO-y1-pv5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="POU-8P-uK6">
@@ -8323,7 +8308,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="jTX-Ap-1U0" kind="modal" identifier="back" id="hoT-yl-pBx"/>
+                                    <segue destination="jTX-Ap-1U0" kind="modal" identifier="back" modalTransitionStyle="crossDissolve" id="hoT-yl-pBx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="npf-W8-tVY">
@@ -8370,7 +8355,7 @@
             <objects>
                 <tableViewController id="IWv-2I-gMk" customClass="RSSTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="134" sectionHeaderHeight="22" sectionFooterHeight="22" id="9yM-jR-Gya">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -8455,7 +8440,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M1S-al-Em5" kind="modal" id="AC6-6B-ye5"/>
+                                    <segue destination="M1S-al-Em5" kind="modal" modalTransitionStyle="crossDissolve" id="AC6-6B-ye5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1cb-rz-bL9">
@@ -8547,7 +8532,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yHY-lW-UKi" kind="modal" id="pJa-yQ-HyK"/>
+                                    <segue destination="yHY-lW-UKi" kind="modal" modalTransitionStyle="crossDissolve" id="pJa-yQ-HyK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bZW-rb-bd9">
@@ -8588,7 +8573,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4pw-7W-UaZ" kind="modal" id="lwj-mi-pFB"/>
+                                    <segue destination="4pw-7W-UaZ" kind="modal" modalTransitionStyle="crossDissolve" id="lwj-mi-pFB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iBV-It-oXY">
@@ -8610,7 +8595,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vQn-4S-YfW" kind="modal" id="MPc-sh-20T"/>
+                                    <segue destination="vQn-4S-YfW" kind="modal" modalTransitionStyle="crossDissolve" id="MPc-sh-20T"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fvv-h6-n5o">
@@ -8639,7 +8624,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vgd-Uz-ecs" kind="modal" identifier="swimmingPhotos" id="32H-gN-gli"/>
+                                    <segue destination="Vgd-Uz-ecs" kind="modal" identifier="swimmingPhotos" modalTransitionStyle="crossDissolve" id="32H-gN-gli"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CLi-W4-4Bq">
@@ -8654,11 +8639,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7NN-as-Aj7" kind="modal" identifier="sTeamNews" id="qdD-31-B1L"/>
+                                    <segue destination="7NN-as-Aj7" kind="modal" identifier="sTeamNews" modalTransitionStyle="crossDissolve" id="qdD-31-B1L"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="esP-iP-2f9">
-                                <rect key="frame" x="0.0" y="466" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="470" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -8677,7 +8662,7 @@
             <objects>
                 <viewController id="aY6-bL-bKp" customClass="WebViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zhq-zi-3d6">
-                        <rect key="frame" x="0.0" y="20" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="eJ6-Q2-cP0">
@@ -8702,7 +8687,7 @@
             <objects>
                 <viewController id="UOu-Jo-Vzw" customClass="News_Story_View_Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="65U-Ie-fCV">
-                        <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="obP-5E-jGW">
@@ -8732,7 +8717,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7NN-as-Aj7" kind="modal" identifier="back" id="aQY-iF-qOK"/>
+                                    <segue destination="7NN-as-Aj7" kind="modal" identifier="back" modalTransitionStyle="crossDissolve" id="aQY-iF-qOK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UD7-hz-2ym">
@@ -8779,7 +8764,7 @@
             <objects>
                 <tableViewController id="9Jm-R0-lKr" customClass="RSSTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="134" sectionHeaderHeight="22" sectionFooterHeight="22" id="YdF-Xt-Ep4">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -8864,7 +8849,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xgf-pa-f2U" kind="modal" id="2nX-Ws-d5B"/>
+                                    <segue destination="xgf-pa-f2U" kind="modal" modalTransitionStyle="crossDissolve" id="2nX-Ws-d5B"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4rr-xS-9BQ">
@@ -8966,7 +8951,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DOg-gk-edS" kind="modal" identifier="back" id="kJJ-F1-RPX"/>
+                                    <segue destination="DOg-gk-edS" kind="modal" identifier="back" modalTransitionStyle="crossDissolve" id="kJJ-F1-RPX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vV6-Ok-jmH">
@@ -9013,7 +8998,7 @@
             <objects>
                 <viewController id="P19-ba-p3H" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e4p-vA-vzc">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i5d-Lr-QWu">
@@ -9043,18 +9028,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="o6b-vx-ewQ" kind="modal" id="2Df-7p-Pwb"/>
+                                    <segue destination="o6b-vx-ewQ" kind="modal" modalTransitionStyle="crossDissolve" id="2Df-7p-Pwb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qbt-Om-YAQ">
-                                <rect key="frame" x="0.0" y="72" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="74" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Football" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="weJ-75-CTU">
-                                <rect key="frame" x="9" y="32" width="126" height="42"/>
+                                <rect key="frame" x="9" y="33" width="126" height="42"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -9090,7 +9075,7 @@
             <objects>
                 <tableViewController id="DOJ-bs-u27" customClass="RosterTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" id="W6H-Uu-Vaj">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -9144,7 +9129,7 @@
             <objects>
                 <viewController id="TVW-RX-gZ6" customClass="ScheduleViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hLH-Tq-1Ig">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gEU-Xs-WQH">
@@ -9174,18 +9159,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="o6b-vx-ewQ" kind="modal" id="meZ-YB-87s"/>
+                                    <segue destination="o6b-vx-ewQ" kind="modal" modalTransitionStyle="crossDissolve" id="meZ-YB-87s"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KxW-M1-FtF">
-                                <rect key="frame" x="0.0" y="72" width="320" height="4"/>
+                                <rect key="frame" x="0.0" y="74" width="320" height="4"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Football" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3PB-Ca-ZDf">
-                                <rect key="frame" x="9" y="32" width="126" height="42"/>
+                                <rect key="frame" x="9" y="33" width="126" height="42"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -9221,7 +9206,7 @@
             <objects>
                 <tableViewController id="NUW-3h-iEo" customClass="ScheduleTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="Bwe-b9-Y5A">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -10113,7 +10098,7 @@
             <objects>
                 <tableViewController id="sky-pO-byN" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="53" sectionHeaderHeight="22" sectionFooterHeight="22" id="Nor-r9-inn">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -10977,7 +10962,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M1S-al-Em5" kind="modal" id="hNJ-zc-ons"/>
+                                    <segue destination="M1S-al-Em5" kind="modal" modalTransitionStyle="crossDissolve" id="hNJ-zc-ons"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ex3-yS-x7y">
@@ -11054,7 +11039,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M1S-al-Em5" kind="modal" id="uDi-Ds-9Cp"/>
+                                    <segue destination="M1S-al-Em5" kind="modal" modalTransitionStyle="crossDissolve" id="uDi-Ds-9Cp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wyk-P0-5b6">
@@ -11101,7 +11086,7 @@
             <objects>
                 <tableViewController id="ykZ-FD-6qE" customClass="ScheduleTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="aSn-Xf-zhO">
-                        <rect key="frame" x="0.0" y="20" width="320" height="468"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="468"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -11189,7 +11174,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M1S-al-Em5" kind="modal" id="8Zw-ji-Sjs"/>
+                                    <segue destination="M1S-al-Em5" kind="modal" modalTransitionStyle="crossDissolve" id="8Zw-ji-Sjs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZKC-fn-x63">
@@ -11276,7 +11261,6 @@
         <image name="BowdoinLacrose.png" width="374" height="138"/>
         <image name="BowdoinLogin.jpg" width="612" height="612"/>
         <image name="BowdoinMenFinal.png" width="276" height="275"/>
-        <image name="BowdoinNews.png" width="276" height="275"/>
         <image name="BowdoinOfficailLogo.png" width="344" height="120"/>
         <image name="BowdoinSoccer 2.jpg" width="398" height="194"/>
         <image name="BowdoinSwimming.jpg" width="1717" height="664"/>
@@ -11327,7 +11311,7 @@
         <image name="Mark Fernandez.jpg" width="150" height="176"/>
         <image name="Megan Chong.jpg" width="150" height="176"/>
         <image name="MyPhotosLogo.png" width="75" height="75"/>
-        <image name="MyTeamsLogo.png" width="75" height="75"/>
+        <image name="NewsfeedIcon.png" width="368" height="368"/>
         <image name="Olivia Pfeifer.jpg" width="150" height="176"/>
         <image name="Omar Sohail.jpg" width="150" height="176"/>
         <image name="Patty Boyer.jpg" width="150" height="172"/>
@@ -11376,157 +11360,34 @@
         <image name="winter-quad-266.jpg" width="266" height="219"/>
         <image name="wordmark.png" width="150" height="40"/>
     </resources>
-    <classes>
-        <class className="BOWLoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BOWLoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loggedIn:"/>
-                <relationship kind="outlet" name="loginButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="userField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="FlickrPhotoCell" superclassName="UICollectionViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPhotoCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="FlickrPhotoTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPhotoTableViewController.h"/>
-        </class>
-        <class className="FlickrPhotoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPhotoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="done:"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="FlickrPracticeViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPracticeViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="shareButtonTapped:"/>
-                <relationship kind="outlet" name="collectionView" candidateClass="UICollectionView"/>
-                <relationship kind="outlet" name="shareButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
-            </relationships>
-        </class>
-        <class className="ImageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="titleBarButtonItem" candidateClass="UIBarButtonItem"/>
-            </relationships>
-        </class>
-        <class className="LatestFlickrPhotosTVC" superclassName="FlickrPhotoTableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LatestFlickrPhotosTVC.h"/>
-        </class>
-        <class className="NewsFeedViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NewsFeedViewController.h"/>
-        </class>
-        <class className="News_Story_View_Controller" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/News_Story_View_Controller.h"/>
-        </class>
-        <class className="Pocket_RosterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Pocket_RosterViewController.h"/>
-        </class>
-        <class className="RSSCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RSSCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="description" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="RSSHomeCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RSSHomeCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="teamName" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="RSSHomeTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RSSHomeTVC.h"/>
-        </class>
-        <class className="RSSTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RSSTVC.h"/>
-        </class>
-        <class className="RosterCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RosterCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="athleteDetails" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="athleteImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="athleteName" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="RosterTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RosterTVC.h"/>
-        </class>
-        <class className="ScheduleCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dateOfContest" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="opponentName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="result" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ScheduleTVC" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleTVC.h"/>
-        </class>
-        <class className="ScheduleViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleViewController.h"/>
-        </class>
-        <class className="TeamViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TeamViewController.h"/>
-        </class>
-        <class className="UICollectionReusableView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
-        </class>
-        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
-        </class>
-        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
-        </class>
-        <class className="UICollectionViewLayout" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
-        </class>
-        <class className="WebViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="webPage" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="wfO-MJ-a6g"/>
-        <segue reference="FSv-8j-hQv"/>
-        <segue reference="qdD-31-B1L"/>
-        <segue reference="hNJ-zc-ons"/>
-        <segue reference="pJa-yQ-HyK"/>
+        <segue reference="ffG-QE-Whb"/>
+        <segue reference="zKd-1U-8sy"/>
+        <segue reference="hoT-yl-pBx"/>
+        <segue reference="2Df-7p-Pwb"/>
+        <segue reference="DCW-bH-ckF"/>
+        <segue reference="G9U-Zr-Yno"/>
+        <segue reference="bvj-rr-hn6"/>
+        <segue reference="We2-zD-CdN"/>
+        <segue reference="GSa-bE-25Z"/>
         <segue reference="BUJ-bR-NfF"/>
         <segue reference="1cP-Of-ahw"/>
         <segue reference="ZuD-OT-Puq"/>
-        <segue reference="GSa-bE-25Z"/>
         <segue reference="FeM-T1-Cpk"/>
         <segue reference="hO5-rh-g68"/>
-        <segue reference="meZ-YB-87s"/>
-        <segue reference="DCW-bH-ckF"/>
-        <segue reference="zvz-BA-mCH"/>
-        <segue reference="9K1-yJ-07q"/>
-        <segue reference="ydm-gM-c9Z"/>
+        <segue reference="AC6-6B-ye5"/>
+        <segue reference="aQY-iF-qOK"/>
+        <segue reference="pJa-yQ-HyK"/>
+        <segue reference="kJJ-F1-RPX"/>
         <segue reference="2nX-Ws-d5B"/>
-        <segue reference="ffG-QE-Whb"/>
-        <segue reference="zKd-1U-8sy"/>
-        <segue reference="We2-zD-CdN"/>
-        <segue reference="bvj-rr-hn6"/>
-        <segue reference="Ult-TE-i6F"/>
+        <segue reference="wfO-MJ-a6g"/>
+        <segue reference="hAc-fM-6Pb"/>
         <segue reference="O4R-SI-gRF"/>
+        <segue reference="Ult-TE-i6F"/>
     </inferredMetricsTieBreakers>
 </document>

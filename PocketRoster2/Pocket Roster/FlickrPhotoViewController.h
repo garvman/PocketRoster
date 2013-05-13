@@ -11,5 +11,13 @@
 @class FlickrPhoto;
 
 @interface FlickrPhotoViewController : UIViewController
+
+/**
+ *************************************************
+ *                                               *
+ *                  Property                     *
+ *                                               *
+ *************************************************
+ */
 @property(nonatomic, strong) FlickrPhoto *flickrPhoto;
 @end

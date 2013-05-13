@@ -115,7 +115,8 @@
 		CF4684F5173DFD9B001F8A1F /* FlickrPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684ED173DFD9B001F8A1F /* FlickrPracticeViewController.m */; };
 		CF4684F6173DFD9B001F8A1F /* FlickrPhotoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */; };
 		CF468501173E0246001F8A1F /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF468500173E0245001F8A1F /* FlickrPhotoCell.m */; };
-		CF468507173F04A5001F8A1F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF468506173F04A5001F8A1F /* Icon.png */; };
+		CF56488D174096210067FBBB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF56488C174096210067FBBB /* Icon.png */; };
+		CF56488F174096690067FBBB /* NewsfeedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF56488E174096690067FBBB /* NewsfeedIcon.png */; };
 		CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
 		CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
 		CF6568D9171782B700AE84AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D8171782B700AE84AC /* CoreGraphics.framework */; };
@@ -404,7 +405,8 @@
 		CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
 		CF4684FF173E0245001F8A1F /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
 		CF468500173E0245001F8A1F /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
-		CF468506173F04A5001F8A1F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CF56488C174096210067FBBB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		CF56488E174096690067FBBB /* NewsfeedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewsfeedIcon.png; sourceTree = "<group>"; };
 		CF6568D0171782B700AE84AC /* Pocket Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Roster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6568D4171782B700AE84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF6568D6171782B700AE84AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -644,6 +646,7 @@
 		CF247A16173B408F0079AD32 /* General Images */ = {
 			isa = PBXGroup;
 			children = (
+				CF56488E174096690067FBBB /* NewsfeedIcon.png */,
 				CF247A6C173BF7AB0079AD32 /* BowdoinClubFinal.png */,
 				1E18AACB174002A200AFA86F /* BowdoinNews.png */,
 				CF247A55173BD91D0079AD32 /* LoginButton2.png */,
@@ -782,7 +785,7 @@
 			children = (
 				1E15B59017408334006D1881 /* ScheduleViewController.h */,
 				1E15B59117408334006D1881 /* ScheduleViewController.m */,
-				CF468506173F04A5001F8A1F /* Icon.png */,
+				CF56488C174096210067FBBB /* Icon.png */,
 				CF4684BE173DBF8E001F8A1F /* TumbnailFinal */,
 				CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */,
 				1EBB3DF4172241650032238C /* Swim Team */,
@@ -1101,8 +1104,9 @@
 				CF247AEF173DAC7B0079AD32 /* WFieldHockeyFinal.png in Resources */,
 				CF4684DB173DC4D0001F8A1F /* LoginButton.png in Resources */,
 				CF4684E1173DF963001F8A1F /* Icon.png in Resources */,
-				CF468507173F04A5001F8A1F /* Icon.png in Resources */,
 				1E15B58F174081DF006D1881 /* mensSwimmingSchedule.txt in Resources */,
+				CF56488D174096210067FBBB /* Icon.png in Resources */,
+				CF56488F174096690067FBBB /* NewsfeedIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

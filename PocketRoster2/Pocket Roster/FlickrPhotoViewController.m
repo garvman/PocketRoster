@@ -5,13 +5,35 @@
 //  Created by Brandon Trebitowski on 7/18/12.
 //  Copyright (c) 2012 Brandon Trebitowski. All rights reserved.
 //
+/**
+ *************************************************
+ *                                               *
+ *         Flickr Photo View Controller          *
+ *                                               *
+ *************************************************
+ */
+
 
 #import "FlickrPhotoViewController.h"
 #import "Flickr.h"
 #import "FlickrPhoto.h"
 
 @interface FlickrPhotoViewController ()
+/**
+ *************************************************
+ *                                               *
+ *                  Property                     *
+ *                                               *
+ *************************************************
+ */
 @property(weak) IBOutlet UIImageView *imageView;
+/**
+ *************************************************
+ *                                               *
+ *              IBAction - Done                  *
+ *                                               *
+ *************************************************
+ */
 - (IBAction)done:(id) sender;
 @end
 

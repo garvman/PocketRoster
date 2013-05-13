@@ -12,6 +12,16 @@
 
 @implementation FlickrPhotoCell
 
+/**
+ *************************************************
+ *                                               *
+ *                Set Frame                      *
+ *                                               *
+ *************************************************
+ *
+ * A lot of code was offered in the to tutorial at key 
+ * to setting up the a cell in the the collection view
+ */
 - (id) initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
@@ -19,14 +29,17 @@
     {
         
         UIView *bgView = [[UIView alloc] initWithFrame:self.backgroundView.frame];
-        bgView.backgroundColor = [UIColor blueColor];
-        //bgView.layer.borderColor = [[UIColor whiteColor] CGColor];
-        //bgView.layer.borderWidth = 4;
         self.selectedBackgroundView = bgView;      
     }
     return self;
 }
-
+/**
+*************************************************
+*                                               *
+*                Set Photo                      *
+*                                               *
+*************************************************
+*/
 - (void) setPhoto:(FlickrPhoto *)photo
 {
     if(_photo != photo)

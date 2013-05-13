@@ -11,6 +11,13 @@
 @class FlickrPhoto;
 
 @interface FlickrPhotoCell : UICollectionViewCell
+/**
+ *************************************************
+ *                                               *
+ *                Properties                     *
+ *                                               *
+ *************************************************
+ */
 @property(nonatomic, strong) IBOutlet UIImageView *imageView;
 @property(nonatomic, strong) FlickrPhoto *photo;
 
