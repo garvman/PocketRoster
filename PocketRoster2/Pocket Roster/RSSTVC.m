@@ -36,22 +36,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //self.title = @"FEEDS";
-    //[self addArticles];
-    
-    if (self.stories == nil) {
-        NSLog(@"sucks");
+        if (self.stories == nil) {
+        
         [self fetchRSS];
     }
     
     
     
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
 }
 
 -(void)fetchRSS{
@@ -60,11 +53,7 @@
     
         
     NSURL *xmlURL = [NSURL URLWithString:[self getCorrectURL]];
-     //NSLog(@"%@", xmlURL);
-    
-    
-    
-    //NSData* xmlData = [[NSMutableData alloc] initWithContentsOfURL:[NSURL URLWithString:newsURL]];
+     
     
     NSXMLParser *rssParser = [[NSXMLParser alloc]initWithContentsOfURL:xmlURL];
     
@@ -99,22 +88,7 @@
 }
 
 
-/*
--(void)addArticles{
-    RSSEntry *entry1 = [[RSSEntry alloc]initWithBlogTitle:@"1" articleTitle:@"1" articleURL:@"1" articleDate:[NSDate date]];
-    RSSEntry *entry2 = [[RSSEntry alloc]initWithBlogTitle:@"2" articleTitle:@"2" articleURL:@"2" articleDate:[NSDate date]];
-    RSSEntry *entry3 = [[RSSEntry alloc]initWithBlogTitle:@"3" articleTitle:@"3" articleURL:@"3" articleDate:[NSDate date]];
-    
-    
-    [self.allArticles insertObject:entry1 atIndex:0];
-    [self.allArticles insertObject:entry2 atIndex:0];
-    [self.allArticles insertObject:entry3 atIndex:0];
-    
-    //RSSEntry *e = [self.allArticles objectAtIndex:0];
-    
-    NSLog(@"%@", entry1.articleTitle);
-}
- */
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -138,6 +112,7 @@
     return [self.stories count];
 }
 
+//sets the info in the cells from the correct story titles, images, etc
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -148,17 +123,7 @@
     if (cell == nil) {
         cell = [[RSSCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
-    
-    //RSSEntry *entry = [self.allArticles objectAtIndex:indexPath.row];
-    //NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-    //[dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
-    //[dateFormatter setDateStyle:NSDateFormatterMediumStyle];
-    
-    //NSString *articleDateString = [dateFormatter stringFromDate:entry.articleDate];
-    
-    //cell.textLabel.text = entry.articleTitle;
-    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@", articleDateString, entry.blogTitle];
-    
+   
     cell.title.text = [[self.stories objectAtIndex:indexPath.row] objectForKey:@"title"];
     cell.description.text = [[self.stories objectAtIndex:indexPath.row]objectForKey:@"summary"];
     cell.image.image = [[self.stories objectAtIndex:indexPath.row]objectForKey:@"image"];
@@ -167,6 +132,13 @@
 }
 
 
+/*
+ *  The following code is used to parse the XML data for the RSS feed
+ *  Sets various string properties to info that was parsed
+ *  this info is stored in a collection of stories which is then
+ *  displayed in the table view. 
+ *
+ */
 
 - (void)parserDidStartDocument:(NSXMLParser *)parser {
 	NSLog(@"found file and started parsing");
@@ -212,7 +184,7 @@
         NSURL *url = [NSURL URLWithString:self.imageURL];
         NSData *imageData = [[NSData alloc] initWithContentsOfURL:url];
         self.storyImage = [UIImage imageWithData:imageData];
-         //NSLog(@"found characters: %@", self.imageURL);
+         
     }
     
 }
@@ -228,7 +200,7 @@
 		[self.item setObject:self.currentDate forKey:@"date"];
         [self.item setObject:self.storyImage forKey:@"image"];
         
-        //RSSEntry *entry = [[RSSEntry alloc]initWithBlogTitle:self.currentTitle articleTitle:self.currentSummary articleURL:self.currentLink articleDate:self.currentDate];
+        
         
 		[self.stories addObject:self.item ];
 		//NSLog(@"adding story: %@", self.currentTitle);
@@ -247,22 +219,20 @@
         
 	} else if ([self.currentElement isEqualToString:@"pubDate"]) {
 		[self.currentDate appendString:string];
-	} else if ([self.currentElement isEqualToString:@"image"]){
-        //[self.imageURL appendString:string];
-       
-    }
+	} 
 }
 
 - (void)parserDidEndDocument:(NSXMLParser *)parser {
     
-	//[activityIndicator stopAnimating];
-	//[activityIndicator removeFromSuperview];
+	
     
 	NSLog(@"all done!");
 	NSLog(@"stories array has %d items", [self.stories count]);
-	//[newsTable reloadData];
+	
 }
 
+
+//send info for displaying specific story
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     
@@ -285,21 +255,13 @@
                     NSLog(@"RSSTVC%@", newsTMP.team);
                 }
                 
-                //[segue.destinationViewController setNewsURL:self.sequeLink];
-                //[segue.destinationViewController setTitle:self.currentTitle];
+                
                 
             }
         }
     }
 }
-/*
--(void) performSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
-    
-    if([identifier isEqualToString:@"webView"]){
-        [self performSegueWithIdentifier:identifier sender:self];
-    }
-}
- */
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

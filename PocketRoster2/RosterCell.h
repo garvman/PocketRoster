@@ -10,6 +10,7 @@
 
 @interface RosterCell : UITableViewCell
 
+//properties for displaying info/ pictures in the roster cells
 @property (weak, nonatomic) IBOutlet UIImageView *athleteImage;
 @property (weak, nonatomic) IBOutlet UILabel *athleteName;
 @property (weak, nonatomic) IBOutlet UILabel *athleteDetails;

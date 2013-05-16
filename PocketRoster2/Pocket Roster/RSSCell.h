@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RSSCell : UITableViewCell
+
+//properties for displaying the basic story info
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *description;
 @property (weak, nonatomic) IBOutlet UIImageView *image;

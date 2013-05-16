@@ -9,6 +9,15 @@
 #import "NewsFeedViewController.h"
 #import "RSSTVC.h"
 
+/*
+ *  Dummy class which is used to allow the TVC to be stored in a container view
+ *  This is the view controller for the container view. it passes the info required for
+ *  the displaying the stories from the team view controller. Info is passed to
+ *  the RSSTVC embeded in this view
+ *
+ */
+
+
 @interface NewsFeedViewController ()
 
 @end
@@ -28,7 +37,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"inNFWC");
+    //NSLog(@"inNFWC");
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,14 +50,14 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"embedNews"]) {
-        NSLog(@"%@", self.teamName);
+        //NSLog(@"%@", self.teamName);
         
                 
         
         if([segue.destinationViewController isKindOfClass:[RSSTVC class]]){
             RSSTVC *rSSTmp = (RSSTVC *)segue.destinationViewController;
             rSSTmp.teamName = self.teamName;
-            NSLog(@"inhere");
+            //NSLog(@"inhere");
             //[segue.destinationViewController setTeamName:self.teamName];
         }
         

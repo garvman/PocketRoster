@@ -8,6 +8,9 @@
 
 #import "WebViewController.h"
 
+//Displays the story from the RSS feed by pulling up the story in a web View
+//this is a temporary implementation until a custom design is made for displaying stories 
+
 @interface WebViewController ()
 
 @end
@@ -28,13 +31,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
      
-    //NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.inputURL]];
+    
     NSString *articleURL = [self.inputURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    //NSLog(@"%@", articleURL);
     NSURL *url = [NSURL URLWithString:articleURL];
-    //NSLog(@"%@", url);
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    //NSLog(@"%@", requestObj);
     [_webPage loadRequest:requestObj];
 }
 

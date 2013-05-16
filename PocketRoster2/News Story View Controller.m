@@ -10,7 +10,17 @@
 #import "NewsFeedViewController.h"
 #import "WebViewController.h"
 
+
+/*
+ *  Dummy class which is used to allow the TVC to be stored in a container view
+ *  This is the view controller for the container view. it passes the info required for
+ *  the table view display from the previous table view controller to the web view displaying
+ *  the story.
+ *
+ */
+
 @interface News_Story_View_Controller ()
+
 
 @end
 
@@ -51,6 +61,7 @@
             //[segue.destinationViewController setTeamName:self.teamName];
         }        
     }
+    //resets the team name when back pressed so the news feel isnt fetching a null URL
     else if ([segue.identifier isEqualToString:@"back"]){
         NSLog(@"back");
         if ([segue.destinationViewController isKindOfClass:[NewsFeedViewController class]]) {

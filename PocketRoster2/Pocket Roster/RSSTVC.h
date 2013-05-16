@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "WebViewController.h"
+/*
+ *  Header file for the Class that displays the list of stories. 
+ *  contains properties which will be set by a NSXML parser
+ *
+ *
+ */
 
 @interface RSSTVC : UITableViewController <NSXMLParserDelegate>
 

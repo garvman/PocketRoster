@@ -5,6 +5,17 @@
 //  Created by James P. Garvey on 5/11/13.
 //  Copyright (c) 2013 Pocket Roster. All rights reserved.
 //
+/*
+ *
+ *  This class is used to control which team's data is presented in all of the team
+ *  fields. The name of the team which was selected in the prevoius view (a collection
+ *  of teams for a given season) is set as the team name. This is then passed to
+ *  view controllers down the line to display the correct Roster, News Feed, etc.
+ *  In the future this class will be generic and be applied to every team as opposed
+ *  to the implementation which just supports football and swimming now
+ *
+ *
+ */
 
 #import "TeamViewController.h"
 #import "NewsFeedViewController.h"
@@ -38,6 +49,8 @@
 }
 
 
+//set the team name according to which button was pressed in the view
+//will only have one for each button when the system is generalized. 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"teamNews"]) {

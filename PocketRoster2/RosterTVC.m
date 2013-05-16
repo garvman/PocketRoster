@@ -46,7 +46,14 @@
 }
 
 
-
+/*
+ *  this method creates the dictionary for the football team roster
+ *  as a preliminary step the name of the image files was changed to contain the info
+ *  to be displayed in the roster. That way we didnt have to parse HTML files.
+ *  in the future the rosters will be stored in Core Data and will be parsed from HTML
+ *
+ *
+ */
 -(void)initializeFootballTeamRoster{
     
     NSArray *images = [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:@"FootballRosterPictures"];
@@ -81,31 +88,6 @@
         
     }
     
-    /*
-    
-    NSArray *allKeys = [self.footballTeamRoster allKeys];
-    
-    
-    NSLog(@"%@", allKeys);
-    
-    
-    
-    
-    for (NSObject *key in allKeys) {
-        NSLog(@"%@",  [self.footballTeamRoster objectForKey:key]);
-    }
-    
-    
-    for (int i = 0; i<100; i++) {
-        
-        
-        self.key = [[NSString alloc]initWithFormat:@"%d", i];
-        
-        if ([self.footballTeamRoster objectForKey:self.key]) {
-            NSLog(@"%@", [self.footballTeamRoster objectForKey:self.key]);
-        }
-    }
-     */
     
 }
 
@@ -141,7 +123,8 @@
     
 }
 
-
+//displays the correct cells for where the user is in the table view
+//the display fields in the Roster Cell are set according to the data for individual atheletes 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"RosterCell";

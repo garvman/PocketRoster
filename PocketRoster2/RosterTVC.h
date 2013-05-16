@@ -11,15 +11,8 @@
 @interface RosterTVC : UITableViewController
 
 
-
+//properties for storing/ accessing the roster
 @property (nonatomic) NSString *key;
-
-/*
- @property (nonatomic) NSString *yearOfGraduation;
- @property (nonatomic) NSString *number;
- @property (nonatomic) NSString *position;
- @property (nonatomic) UIImage *athletePicture;
- */
 @property (nonatomic) NSMutableDictionary *footballTeamRoster;
 
 -(void)initializeFootballTeamRoster;
