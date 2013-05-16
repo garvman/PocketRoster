@@ -45,6 +45,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+
+//reads in from a text file and stores the info to be displayed
 -(void)initializeSchedule{
     
     NSString *filepath;

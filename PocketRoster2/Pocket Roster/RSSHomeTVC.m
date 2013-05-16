@@ -10,6 +10,11 @@
 #import "RSSHomeCell.h"
 #import "NewsFeedViewController.h"
 
+//displays a list of teams which can be selected to view news feed for from the home screen
+
+
+
+
 @interface RSSHomeTVC ()
 
 @end

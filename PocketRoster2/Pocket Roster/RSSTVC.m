@@ -7,7 +7,6 @@
 //
 
 #import "RSSTVC.h"
-#import "RSSEntry.h"
 #import "RSSCell.h"
 #import "News Story View Controller.h"
 #define genURL @"http://athletics.bowdoin.edu/landing/headlines-featured?feed=rss_2.0"

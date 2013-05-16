@@ -28,10 +28,8 @@
 		1ECC555F173F092400EBD61D /* RSSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555A173F092400EBD61D /* RSSCell.m */; };
 		1ECC5560173F092400EBD61D /* RSSTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555C173F092400EBD61D /* RSSTVC.m */; };
 		1ECC5561173F092400EBD61D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC555E173F092400EBD61D /* WebViewController.m */; };
-		1ECC557A173F0DF300EBD61D /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5573173F0DF300EBD61D /* RSSEntry.m */; };
 		1ECC557B173F0DF300EBD61D /* RSSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */; };
 		1ECC557C173F0DF300EBD61D /* RSSHomeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */; };
-		1ECC557D173F0DF300EBD61D /* RSSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5579173F0DF300EBD61D /* RSSWebView.m */; };
 		1ECC5583173F0FDD00EBD61D /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5582173F0FDD00EBD61D /* NewsFeedViewController.m */; };
 		1ECC5586173F168200EBD61D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC5585173F168200EBD61D /* TeamViewController.m */; };
 		1EFF35BF1725EFFA003A5A1E /* RosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF35BE1725EFFA003A5A1E /* RosterCell.m */; };
@@ -115,7 +113,6 @@
 		CF4684F5173DFD9B001F8A1F /* FlickrPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684ED173DFD9B001F8A1F /* FlickrPracticeViewController.m */; };
 		CF4684F6173DFD9B001F8A1F /* FlickrPhotoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */; };
 		CF468501173E0246001F8A1F /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF468500173E0245001F8A1F /* FlickrPhotoCell.m */; };
-		CF56488D174096210067FBBB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF56488C174096210067FBBB /* Icon.png */; };
 		CF56488F174096690067FBBB /* NewsfeedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF56488E174096690067FBBB /* NewsfeedIcon.png */; };
 		CF6568D5171782B700AE84AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D4171782B700AE84AC /* UIKit.framework */; };
 		CF6568D7171782B700AE84AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6568D6171782B700AE84AC /* Foundation.framework */; };
@@ -313,14 +310,10 @@
 		1ECC555C173F092400EBD61D /* RSSTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTVC.m; sourceTree = "<group>"; };
 		1ECC555D173F092400EBD61D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		1ECC555E173F092400EBD61D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		1ECC5572173F0DF300EBD61D /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
-		1ECC5573173F0DF300EBD61D /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
 		1ECC5574173F0DF300EBD61D /* RSSHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSHomeCell.h; sourceTree = "<group>"; };
 		1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSHomeCell.m; sourceTree = "<group>"; };
 		1ECC5576173F0DF300EBD61D /* RSSHomeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSHomeTVC.h; sourceTree = "<group>"; };
 		1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSHomeTVC.m; sourceTree = "<group>"; };
-		1ECC5578173F0DF300EBD61D /* RSSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSWebView.h; sourceTree = "<group>"; };
-		1ECC5579173F0DF300EBD61D /* RSSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSWebView.m; sourceTree = "<group>"; };
 		1ECC5581173F0FDD00EBD61D /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
 		1ECC5582173F0FDD00EBD61D /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
 		1ECC5584173F168200EBD61D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamViewController.h; path = ../TeamViewController.h; sourceTree = "<group>"; };
@@ -405,7 +398,6 @@
 		CF4684EF173DFD9B001F8A1F /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
 		CF4684FF173E0245001F8A1F /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
 		CF468500173E0245001F8A1F /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
-		CF56488C174096210067FBBB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
 		CF56488E174096690067FBBB /* NewsfeedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewsfeedIcon.png; sourceTree = "<group>"; };
 		CF6568D0171782B700AE84AC /* Pocket Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Roster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6568D4171782B700AE84AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -631,14 +623,10 @@
 				1ECC555C173F092400EBD61D /* RSSTVC.m */,
 				1ECC555D173F092400EBD61D /* WebViewController.h */,
 				1ECC555E173F092400EBD61D /* WebViewController.m */,
-				1ECC5572173F0DF300EBD61D /* RSSEntry.h */,
-				1ECC5573173F0DF300EBD61D /* RSSEntry.m */,
 				1ECC5574173F0DF300EBD61D /* RSSHomeCell.h */,
 				1ECC5575173F0DF300EBD61D /* RSSHomeCell.m */,
 				1ECC5576173F0DF300EBD61D /* RSSHomeTVC.h */,
 				1ECC5577173F0DF300EBD61D /* RSSHomeTVC.m */,
-				1ECC5578173F0DF300EBD61D /* RSSWebView.h */,
-				1ECC5579173F0DF300EBD61D /* RSSWebView.m */,
 			);
 			name = "RSS News";
 			sourceTree = "<group>";
@@ -785,7 +773,6 @@
 			children = (
 				1E15B59017408334006D1881 /* ScheduleViewController.h */,
 				1E15B59117408334006D1881 /* ScheduleViewController.m */,
-				CF56488C174096210067FBBB /* Icon.png */,
 				CF4684BE173DBF8E001F8A1F /* TumbnailFinal */,
 				CF247AE8173D8D660079AD32 /* iPhoneSetFallBackground.png */,
 				1EBB3DF4172241650032238C /* Swim Team */,
@@ -1105,7 +1092,6 @@
 				CF4684DB173DC4D0001F8A1F /* LoginButton.png in Resources */,
 				CF4684E1173DF963001F8A1F /* Icon.png in Resources */,
 				1E15B58F174081DF006D1881 /* mensSwimmingSchedule.txt in Resources */,
-				CF56488D174096210067FBBB /* Icon.png in Resources */,
 				CF56488F174096690067FBBB /* NewsfeedIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1245,10 +1231,8 @@
 				1ECC555F173F092400EBD61D /* RSSCell.m in Sources */,
 				1ECC5560173F092400EBD61D /* RSSTVC.m in Sources */,
 				1ECC5561173F092400EBD61D /* WebViewController.m in Sources */,
-				1ECC557A173F0DF300EBD61D /* RSSEntry.m in Sources */,
 				1ECC557B173F0DF300EBD61D /* RSSHomeCell.m in Sources */,
 				1ECC557C173F0DF300EBD61D /* RSSHomeTVC.m in Sources */,
-				1ECC557D173F0DF300EBD61D /* RSSWebView.m in Sources */,
 				1ECC5583173F0FDD00EBD61D /* NewsFeedViewController.m in Sources */,
 				1ECC5586173F168200EBD61D /* TeamViewController.m in Sources */,
 				1EA69CD9173F1C2300C31786 /* News Story View Controller.m in Sources */,

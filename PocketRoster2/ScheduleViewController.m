@@ -9,6 +9,9 @@
 #import "ScheduleViewController.h"
 #import "ScheduleTVC.h"
 
+//dummy view controller to display the schedule in the embedded table view controller
+//for the correct team.
+
 @interface ScheduleViewController ()
 
 @end

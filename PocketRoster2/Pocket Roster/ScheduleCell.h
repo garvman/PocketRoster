@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ScheduleCell : UITableViewCell
+
+//properties to display the infor in the cell
 @property (weak, nonatomic) IBOutlet UILabel *opponentName;
 @property (weak, nonatomic) IBOutlet UILabel *dateOfContest;
 @property (weak, nonatomic) IBOutlet UILabel *result;

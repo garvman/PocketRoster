@@ -10,6 +10,8 @@
 
 @interface ScheduleTVC : UITableViewController
 
+
+//store the data to be displayed and access properties
 @property (nonatomic) NSMutableDictionary *scheduleInfo;
 @property (nonatomic) NSString *key, *teamName;
 
