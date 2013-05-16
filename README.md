@@ -20,7 +20,7 @@ user to a web view for that page from the bowdoin athletics web page. In the fut
 the same information. The news feed implements a XML parser to get the information required. In the future a HTML 
 parser will be used to pull the required information for the roster and the schedule (right now txt files have been 
 written containing the data.) In the future, clicking on a roster cell will pull up athlete bios/ info and clicking on a 
-schedule cell will bring up the box/score or live scores. 
+schedule cell will bring up the box/score or live scores. Photos are fetched from flickr using the flickr API.
 
 	All current implementation is the the public side of the app. A Bowdoin user side will be implemented giving
 those with valid Bowdoin credentials to post pictures and comments to the app. For the public side of the app, users 
